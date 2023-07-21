@@ -1,5 +1,6 @@
 <h2> Tips and Tricks </h2>
  <h3> Formulas </h3>
+ 
 <img src="Images/NaturalNumbersFormulas.JPG" /> 
 <img src="Images/AP_GP.JPG" /> 
 <img src="Images/HP.JPG" /> 
