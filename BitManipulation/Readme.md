@@ -6,7 +6,7 @@ a+b = (a^b) + (a&b)
 ```
 
 
-![Basic Formulas](Images/BasicFormulas.JPG)
+![Basic Formulas](BitManipulation/Images/BasicFormulas.JPG)
 
 <h2> Best Tutorials and Blogs</h2>
 
