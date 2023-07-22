@@ -8,3 +8,5 @@
 <img src="Images/DivisibilityRules.jpg" />
 
 <h2> Best Tutorials and Blogs</h2>
+
+* https://www.wolframalpha.com/
