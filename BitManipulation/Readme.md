@@ -4,7 +4,7 @@
 ```
 a+b = (a^b) + (a&b)
 ```
-![img](Images/BasicFormulas.JPG)
+![img](Images/BasicFormulas.png)
 
 <h2> Best Tutorials and Blogs</h2>
 
