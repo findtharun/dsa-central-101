@@ -4,7 +4,8 @@
 ```
 a+b = (a^b) + (a&b)
 ```
-<img src="Images/BasicFormulas.JPG">
+
+![Image](Images/BasicFormulas.jpg)
 
 <h2> Best Tutorials and Blogs</h2>
 
