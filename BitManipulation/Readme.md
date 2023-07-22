@@ -5,7 +5,7 @@
 a+b = (a^b) + (a&b)
 ```
 
-![Image](Images/BasicFormulas.jpg)
+![Image](BitManipulation/Images/BasicFormulas.JPG)
 
 <h2> Best Tutorials and Blogs</h2>
 
