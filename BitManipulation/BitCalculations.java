@@ -1,6 +1,7 @@
 package BitManipulation;
 
 public class BitCalculations {
+    // Brian Kernighan’s algorithm:
     void countAllSetBits(int n){
         int count =0;
         while(n>0){

@@ -1,3 +1,5 @@
+Problem Statement: Print All Prime Numbers Less Than N
+
 | Approach | Time Complexity | Space Complexity|
 | :---:         |     :---:      |         :---: |
 | Simple Approach | O(n*sqrt(n))   |  O(n) |
