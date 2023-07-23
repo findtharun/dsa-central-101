@@ -12,3 +12,6 @@ Return indices of the two numbers such that their sum is equal to the target. Ot
 Reason: The loop runs N times in the worst case and searching in a hashmap takes O(1) generally. So the time complexity is O(N).
 
 Note: In the worst case(which rarely happens), the unordered_map takes O(N) to find an element. In that case, the time complexity will be O(N2). If we use map instead of unordered_map, the time complexity will be O(N* logN) as the map data structure takes logN time to find an element.
+
+<h3> Other Variants of Problem</h3>
+https://www.issacc.com/2sum-3sum-4sum-xsum/
