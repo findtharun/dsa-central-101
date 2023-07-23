@@ -2,7 +2,7 @@ package Arrays.TwoSum;
 
 import java.util.*;
 
-public class Hashing {
+public class HashMapp {
     int[] func(int[] nums, int n, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int[] ans = new int[2];
