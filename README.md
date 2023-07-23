@@ -2,8 +2,6 @@
 This Repository Contains Various Approaches to Solving a Problem,  Serves as a Guide to Preparing for Interviews
 ## Time Complexities of Common Operations for Java Collections
 
-## Time Complexities of Common Operations for Java Collections
-
 | Operation                        | ArrayList           | LinkedList          | HashSet   | HashMap   | TreeMap   |
 |----------------------------------|---------------------|---------------------|-----------|-----------|-----------|
 | Access (get)                     | O(1)                | O(n)                | N/A       | N/A       | O(log n)  |
