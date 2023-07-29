@@ -26,9 +26,11 @@ Note:
 
 <h2> Best Tutorials and Blogs</h2>
 
+* https://www.youtube.com/@NeetCode/playlists  - NeetCode
 * https://www.enjoyalgorithms.com/
 
 
 <h2> Best Problems Listed </h2>
 
 * https://www.designgurus.io/
+* https://neetcode.io/practice

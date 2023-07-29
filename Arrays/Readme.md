@@ -7,6 +7,11 @@
     * Marking Visited or Playing With Indices
     * Maths Formulas (If they are 1 to N)
 
+<h3> Type of Problems / Algorithms to be Learnt </h3>
+
+ * Sliding Window / 2 Pointers
+ * Prefix Sum
+
 <h2> Interesting Problems </h2>
 
 * https://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/
