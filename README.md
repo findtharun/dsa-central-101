@@ -26,11 +26,12 @@ Note:
 
 <h2> Best Tutorials and Blogs</h2>
 
-* https://www.youtube.com/@NeetCode/playlists  - NeetCode
+* Neetcode - https://www.youtube.com/@NeetCode/playlists
+* Striver's DSA Sheet : https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 * https://www.enjoyalgorithms.com/
 
 
 <h2> Best Problems Listed </h2>
 
-* https://www.designgurus.io/
+* https://www.designgurus.io/blind75
 * https://neetcode.io/practice
