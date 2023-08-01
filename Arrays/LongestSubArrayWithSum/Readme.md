@@ -1,4 +1,8 @@
-<b> Problem Statement </b> : https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/
+<b> Problem Statement </b> : 
+
+* https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/
+
+* https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/
 
 | Approach | Time Complexity | Space Complexity|
 | :---:         |     :---:      |         :---: |
