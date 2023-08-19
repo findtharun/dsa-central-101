@@ -1,7 +1,7 @@
 | Approach | Time Complexity | Space Complexity|
 | :---:         |     :---:      |         :---: |
 | Brute Force   | O(n)     |  O(1) |
-| Sqrt  | O(sqrt(n))  |   O(1)    |
+| Sqrt  | O(sqrt(min(a,b))  |   O(1)    |
 | Euclidean Algorithm  | O(min(a,b))      | O(1)  |
 
 <hr/>

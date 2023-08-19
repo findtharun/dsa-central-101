@@ -24,7 +24,7 @@ Note:
 
 - Unmodifiable View: Functions like Collections.unmodifiableList(), Collections.unmodifiableSet(), and Collections.unmodifiableMap() return unmodifiable views of the specified collections, making them read-only.
 
-<h2> Best Tutorials and Blogs</h2>
+<h2> Best Resources for Preparation</h2>
 
 * Neetcode - https://www.youtube.com/@NeetCode/playlists
 * Striver's DSA Sheet : https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
@@ -35,3 +35,7 @@ Note:
 
 * https://www.designgurus.io/blind75
 * https://neetcode.io/practice
+
+<h2> Best Videos/Blogs for Learning</h2>
+
+* Datastructures in Java : https://youtu.be/WqDvLBOaWXY
