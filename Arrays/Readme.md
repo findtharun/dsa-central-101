@@ -3,13 +3,15 @@
 * Most of the Array Problems Can be solved using
     * Sorting
     * HashMap
-    * Two Pointer or Sliding Window
+    * Two Pointers
+    * Slow Pointer and Speed Pointer
+    * Sliding Window
     * Marking Visited or Playing With Indices
     * Maths Formulas (If they are 1 to N)
 
 <h3> Type of Problems / Algorithms to be Learnt </h3>
 
- * Sliding Window / 2 Pointers
+ * Sliding Window
  * Prefix Sum
 
 <h2> Interesting Problems </h2>
