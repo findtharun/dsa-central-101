@@ -1,5 +1,7 @@
 <img src="Images/collections.png" />
 
+<img src="Images/Collections-Overview.png" />
+
 <h3> Concurrent Types </h3>
 
 <b><u> Vector, Hashtable and EnumSet </u></b> are conncurent i.e these data structures can be used while implementing Threading or concurrent Operations.
