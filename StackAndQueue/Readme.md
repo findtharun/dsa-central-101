@@ -1,3 +1,3 @@
-Queue is abstract; cannot be instantiated.
+Queue is an Interface; cannot be instantiated. 
 
-Queue should always be Implemented using LL or
+Queue should always be Implemented using LL or Prioirty Queue.
