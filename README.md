@@ -35,7 +35,7 @@ Note:
 
 * https://www.designgurus.io/blind75
 * https://neetcode.io/practice
-
+* https://algo.monster/dashboard
 <h2> Best Videos/Blogs for Learning</h2>
 
 * Datastructures in Java : https://youtu.be/WqDvLBOaWXY
