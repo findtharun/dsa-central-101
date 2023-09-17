@@ -28,7 +28,7 @@ public class NextGreaterElementToRight {
         Arrays.fill(res, -1);
         st.push(0);
         for (int i = 1; i < n; i++) {
-            while (!st.isEmpty() && arr[st.peek()] < arr[i]) { // If current element is greater than Stack Top, Then pop out store it as the next greater element.
+            while (!st.isEmpty() && arr[i] > arr[st.peek()]) { // If current element is greater than Stack Top, Then pop out store it as the next greater element.
                 res[st.pop()] = arr[i];
             }
             st.push(i);
