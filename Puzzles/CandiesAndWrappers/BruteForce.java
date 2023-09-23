@@ -5,7 +5,7 @@ public class BruteForce {
     public static int chocolateFeast(int budget, int cost, int allowed_wrappers_exchange) {
         // Write your code here
         int candies = budget / cost; // Initial Candies
-        int wrappers = budget / cost; // Wrappers of Initial Candies
+        int wrappers = candies; // Wrappers of Initial Candies
 
         // Exchanging Wrappers and calculating Extra Candies
         while (wrappers>= allowed_wrappers_exchange) {
