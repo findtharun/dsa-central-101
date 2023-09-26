@@ -1,9 +1,13 @@
 <h2> Basics </h2>
 
-* String is Immutable (Stored in String Pool), String Builder/ String Buffer is Mutable (Stored in Heap).
+* String is Immutable (Stored in String Pool -- it is Part of Heap only for Strings), String Builder/ String Buffer is Mutable (Stored in Heap).
 
     * String Builder is Single Threaded.
     * String Buffer is Concurrent / Multi Threaded (Thread safe)
+* Conversions
+    * Strings Can be Converted to (String Builder and String BUffer)
+    * String Buffer and String Builder can be converted to String
+    * String Buffer to String Builder and Vice versa (First Convert to String and perform the later, But no Direct Conversion available)
 
 ```
 String a = "Sample"
