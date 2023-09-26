@@ -31,7 +31,7 @@ public class ComparatorSort {
         employees.add(new Employee(1, "Jane Smith", 23));
         employees.add(new Employee(4, "Alice Johnson", 45));
 
-        // Approach 1 : Using Comparator Object
+        // Approach 1 : Using Comparator Object Ascending Order
         Comparator<Employee> com = new Comparator<Employee>() {
             public int compare(Employee e1, Employee e2) {
                 if (e1.age == e2.age) {
@@ -40,6 +40,15 @@ public class ComparatorSort {
                 return e1.age - e2.age;
             }
         };
+        // Descending Order
+        // Comparator<Employee> com = new Comparator<Employee>() {
+        //     public int compare(Employee e1, Employee e2) {
+        //         if (e1.age == e2.age) {
+        //             return e2.salary - e1.salary;
+        //         }
+        //         return e2.age - e1.age;
+        //     }
+        // };
 
         Collections.sort(employees, com);
         System.out.println(employees);
