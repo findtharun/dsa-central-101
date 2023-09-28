@@ -3,6 +3,8 @@ package Strings;
 import java.util.ArrayList;
 import java.util.Stack;
 
+// Problem  : https://leetcode.com/problems/remove-outermost-parentheses/
+// Solution Approach : https://www.youtube.com/watch?v=Evrdo1JEnmo
 public class RemoveOuterMostParentheses {
     public String removeOuterParentheses(String s) {
         Stack<Character> stack = new Stack<>();

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 //https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
+// Solution Approach : https://www.youtube.com/watch?v=j313ttNJjo0
 public class SmallestSubsequenceOfDistinctCharacters {
     public String smallestSubsequence(String s) {
         boolean[] visited = new boolean[26];
