@@ -30,6 +30,13 @@ Note:
 * Striver's DSA Sheet : https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 * https://www.enjoyalgorithms.com/
 
+<h3> Best Explanations(Theortical / Visually)
+* Best Theory Explanations
+    * Abdul Bari
+* Best Visual Explanations
+    * https://www.youtube.com/@insidecode/videos
+    * https://www.youtube.com/@TechWithNikola/videos
+
 
 <h2> Best Problems Listed </h2>
 
