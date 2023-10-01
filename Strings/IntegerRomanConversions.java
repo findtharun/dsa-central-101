@@ -19,10 +19,9 @@ public class IntegerRomanConversions {
         int sum = 0;
         int n = s.length();
         for (int i = 0; i < n; i++) {
-            if (i + 1 < n && roman.get(s.charAt(i)) < roman.get(s.charAt(i + 1))) { // in Roman Representation it is
-                                                                                    // always decreasing and if
-                                                                                    // inreasing order found we need to
-                                                                                    // handle
+            // in Roman Representation it is always decreasing and if inreasing order found
+            // we need to handle
+            if (i + 1 < n && roman.get(s.charAt(i)) < roman.get(s.charAt(i + 1))) {
                 sum = sum - roman.get(s.charAt(i));
             } else {
                 sum = sum + roman.get(s.charAt(i));
