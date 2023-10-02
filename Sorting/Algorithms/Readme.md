@@ -1,9 +1,9 @@
 <h2> Sorting Algorithms Comparison </h2>
 
-<b> Stable Sorting Algorithms </b> Manitains the Rleative Order of Elements When there is a Tie(i.e If Values are Same)
+<b> Stable Sorting Algorithms </b> Manitains the Relative Order of Elements When there is a Tie(i.e If Values are Same)
 | Algorithms        |         Property         |
 | ------------- | --------------------- |
-| Bubble Sort, Insertion Sort, Merge Sort, Counting Sort  | Stable     |
+| Bubble Sort, Insertion Sort, Merge Sort | Stable     |
 | Quick Sort, Selection Sort, Heap Sort      | Unstable           |
 
 <b> Adaptiive Sorting Algorithms </b> checks if the array is sorted alreeady after each pass, breaks . Thus They are efficient.
@@ -37,3 +37,8 @@ Selection sort has various real-world applications, especially in scenarios wher
 <h2> Bubble Sort </h2>
 
 * Bubble sort is Mostly used for eductional Purposes and Teaching.
+
+<h2> Insertion Sort </h2>
+
+* We can not get any results (such as smallest or Largest unlike bubble/ selection sort). 
+* Insertion sort more opertion intensive for arrays, It is manily developed to Sort LinkedList.
