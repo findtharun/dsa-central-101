@@ -1,6 +1,6 @@
-package Sorting.Algorithms;
-
-public class MergeSort {
+package Sorting.Algorithms.MergeSort;
+// Recursive Approach - Merge Sort
+public class Recursive {
 
     public static void merge(int arr[], int l, int m, int r) {
         // Find sizes of two subarrays to be merged
