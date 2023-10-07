@@ -34,15 +34,18 @@ These are the time complexities for common sorting algorithms. Understanding the
 
 <h2> Selection Sort </h2>
 
-Selection sort has various real-world applications, especially in scenarios where simplicity is preferred over performance, or the dataset is relatively small. Here are some real-world examples:
+* Selection sort is a sorting algorithm that selects the Smallest/Greatest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
 
-* Sorting a list of students by their grades or names in a small class.
-* Organizing files in a directory by their creation date or size.
-* Sorting a deck of cards in ascending or descending order.
-* Arranging a list of items by price in a small e-commerce store.
+* Selection sort has various real-world applications, especially in scenarios where simplicity is preferred over performance, or the dataset is relatively small. Here are some real-world examples:
+
+    * Sorting a list of students by their grades or names in a small class.
+    * Organizing files in a directory by their creation date or size.
+    * Sorting a deck of cards in ascending or descending order.
+    *  Arranging a list of items by price in a small e-commerce store.
 
 <h2> Bubble Sort </h2>
 
+* Bubble sort is a sorting algorithm that compares two adjacent elements and swaps them until they are in the intended order.
 * Bubble sort is Mostly used for eductional Purposes and Teaching.
 
 <h2> Insertion Sort </h2>
