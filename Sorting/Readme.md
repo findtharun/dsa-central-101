@@ -32,6 +32,7 @@
 
 These are the time complexities for common sorting algorithms. Understanding these complexities helps in choosing the right sorting algorithm for your specific needs.
 
+![Image](Sorting_Algos_Comparison.png)
 <h2> Selection Sort </h2>
 
 * Selection sort is a sorting algorithm that selects the Smallest/Greatest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
