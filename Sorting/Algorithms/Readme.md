@@ -1,12 +1,12 @@
 <h2> Sorting Algorithms Comparison </h2>
 
-<b> Stable Sorting Algorithms </b> Manitains the Relative Order of Elements When there is a Tie(i.e If Values are Same)
+<b> Stable Sorting Algorithms </b> Maintains the Relative Order of Elements When there is a Tie(i.e. If Values are Same)
 | Algorithms        |         Property         |
 | ------------- | --------------------- |
 | Bubble Sort, Insertion Sort, Merge Sort,Counting Sort | Stable     |
 | Quick Sort, Selection Sort, Heap Sort      | Unstable           |
 
-<b> Adaptiive Sorting Algorithms </b> checks if the array is sorted alreeady after each pass, breaks . Thus They are efficient.
+<b> Adaptive Sorting Algorithms </b> checks if the array is sorted already after each pass, breaks . Thus, They are efficient.
 | Algorithms        |         Property         |
 | ------------- | --------------------- |
 | Bubble Sort, Insertion Sort, Quick Sort  | Adaptive     |
@@ -21,14 +21,14 @@
 
 ## Sorting Algorithm Time Complexities
 
-| Algorithm     | Best Case | Average Case | Worst Case |
-| ------------- | --------- | ------------ | ---------- |
-| **Bubble Sort** | O(n)      | O(n^2)       | O(n^2)     |
-| **Selection Sort** | O(n^2)   | O(n^2)       | O(n^2)     |
-| **Insertion Sort** | O(n)    | O(n^2)       | O(n^2)     |
-| **Merge Sort** | O(n log n) | O(n log n)  | O(n log n) |
-| **Quick Sort** | O(n log n) | O(n log n)  | O(n^2)     |
-| **Heap Sort** | O(n log n) | O(n log n)  | O(n log n) |
+| Algorithm          | Best Case  | Average Case | Worst Case |
+|--------------------|------------|--------------|------------|
+| **Bubble Sort**    | O(n)       | O(n^2)       | O(n^2)     |
+| **Selection Sort** | O(n^2)     | O(n^2)       | O(n^2)     |
+| **Insertion Sort** | O(n)       | O(n^2)       | O(n^2)     |
+| **Merge Sort**     | O(n log n) | O(n log n)   | O(n log n) |
+| **Quick Sort**     | O(n log n) | O(n log n)   | O(n^2)     |
+| **Heap Sort**      | O(n log n) | O(n log n)   | O(n log n) |
 
 These are the time complexities for common sorting algorithms. Understanding these complexities helps in choosing the right sorting algorithm for your specific needs.
 
@@ -46,17 +46,23 @@ These are the time complexities for common sorting algorithms. Understanding the
 <h2> Bubble Sort </h2>
 
 * Bubble sort is a sorting algorithm that compares two adjacent elements and swaps them until they are in the intended order.
-* Bubble sort is Mostly used for eductional Purposes and Teaching.
+* Bubble sort is Mostly used for educational Purposes and Teaching.
 
 <h2> Insertion Sort </h2>
 
 * We can not get any results (such as smallest or Largest unlike bubble/ selection sort). 
 * It works well for nearly sorted arrays.
-* Insertion sort more opertion intensive for arrays (If completely Unsorted), It is manily developed to Sort LinkedList.
+* Insertion sort more operation intensive for arrays (If completely Unsorted), It is mainly developed to Sort LinkedList.
 * It is Online Algorithm (Sorting can Occur as the data is received).
 
 <h2> Merge Sort </h2>
 
 * Worst case is also nlogn , hence works very well large datasets.
 * Can be used to Sort LinkedList as well.
-* But It fails for Small Size (n<=15) , Insertion sort performs well here. So we can use Insertion Sort as part of Merge Sort(Becuase Insertion sort is also stable,Can be used for LinkedLists. Though Bubble sort is stable, it can not be used for Linkedlists).
+* But It fails for Small Size (n<=15) , Insertion sort performs well here. So we can use Insertion Sort as part of Merge Sort(Because Insertion sort is also stable,Can be used for LinkedLists. Though Bubble sort is stable, it can not be used for Linked-lists).
+
+<h2> Quick Sort </h2>
+
+* Though Quick Sort has The Worst Complexity of O(N^2), With Some Optimizations it can perform equivalent to Merge Sort.
+* Since with Optimizations, In place Algo (does not require Space like Merge Sort) , It is internally Implemented as Default Sort in Most of the Languages.
+* https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/
