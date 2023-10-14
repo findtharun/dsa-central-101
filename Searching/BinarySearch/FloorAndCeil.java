@@ -36,8 +36,8 @@ public class FloorAndCeil {
         return ans;
     }
     public static int[] getFloorAndCeil(int[] arr, int n, int x) {
-        int f = findFloor(arr, n, x);
-        int c = findCeil(arr, n, x);
+        int f = findFloor(arr, n, x); // Largest Number in Array <=x
+        int c = findCeil(arr, n, x); // Largest Number in Array>=x --> Finding Lowerbound
         return new int[] {f, c};
     }
     public static void main(String[] args) {

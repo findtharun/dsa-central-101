@@ -26,9 +26,9 @@ arr[ind] > = x; If no Index Found Lower Bound = Size of the Array
 while(low<=high){
     int mid = low + (high-low)/2;
     if(arr[mid]>=x){
-        res = mid;
-        lower_bound = mid-1;
-    }else{
+        lower_bound = mid;
+        high = mid-1;
+    }else{  
         low = mid+1;
     }
 }
