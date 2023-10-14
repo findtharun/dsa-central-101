@@ -21,8 +21,8 @@ while(left <= right) {
 The lower bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater than or equal to a given key i.e. x.
 
 ```
-arr[ind] > = x; If no Index Found Lower Bound = Size of the Array
-
+arr[ind] > = x; If no Index Found then Lower Bound = Size of the Array
+int lower_bound = n;
 while(low<=high){
     int mid = low + (high-low)/2;
     if(arr[mid]>=x){
@@ -39,8 +39,8 @@ return lower_bound;
 The lower bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater than or equal to a given key i.e. x.
 
 ```
-arr[ind] > x; If no Index Found Lower Bound = Size of the Array
-
+arr[ind] > x; If no Index Found then Upper Bound = Size of the Array
+int upper_bound = n;
 while(low<=high){
     int mid = low + (high-low)/2;
     if(arr[mid]>x){

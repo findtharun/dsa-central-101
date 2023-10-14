@@ -1,4 +1,4 @@
-// package Searching.BinarySearch;
+package Searching.BinarySearch;
 public class FloorAndCeil {
     static int findFloor(int[] arr, int n, int x) {
         int low = 0, high = n - 1;
