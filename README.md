@@ -30,7 +30,8 @@ Note:
 * Striver's DSA Sheet : https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 * https://www.enjoyalgorithms.com/
 
-<h3> Best Explanations(Theortical / Visually) </h2>
+<h3> Best Explanations(Theortical / Visually) </h3>
+
 * Best Theory Explanations
     * Abdul Bari
 * Best Visual Explanations
