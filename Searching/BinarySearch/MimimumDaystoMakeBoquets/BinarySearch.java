@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 public class BinarySearch {
     public static boolean isPossible(int[] bloomDay, int day, int m, int k) {
         int n = bloomDay.length;
