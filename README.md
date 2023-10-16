@@ -44,6 +44,8 @@ Note:
 * https://www.designgurus.io/blind75
 * https://neetcode.io/practice
 * https://algo.monster/dashboard
+
 <h2> Best Videos/Blogs for Learning</h2>
 
 * Datastructures in Java : https://youtu.be/WqDvLBOaWXY
+* Collections in Java : https://www.youtube.com/playlist?list=PLFGoYjJG_fqoDQHufg7XVk-yb2w6CNpgF
