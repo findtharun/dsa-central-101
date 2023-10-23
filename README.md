@@ -46,7 +46,8 @@ Note:
 * https://algo.monster/dashboard
 * Sorting and Searching : https://cses.fi/problemset/
 
-<h2> Best Videos/Blogs for Learning</h2>
+<h2> Best Videos/Blogs for Learning Java</h2>
 
+* Java Core Concepts in Detail : https://jenkov.com/
 * Datastructures in Java : https://youtu.be/WqDvLBOaWXY
 * Collections in Java : https://www.youtube.com/playlist?list=PLFGoYjJG_fqoDQHufg7XVk-yb2w6CNpgF
