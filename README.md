@@ -49,5 +49,6 @@ Note:
 <h2> Best Videos/Blogs for Learning Java</h2>
 
 * Java Core Concepts in Detail : https://jenkov.com/
+* https://www.geeksforgeeks.org/java/
 * Datastructures in Java : https://youtu.be/WqDvLBOaWXY
 * Collections in Java : https://www.youtube.com/playlist?list=PLFGoYjJG_fqoDQHufg7XVk-yb2w6CNpgF
