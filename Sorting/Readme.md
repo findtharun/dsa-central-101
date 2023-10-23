@@ -67,3 +67,7 @@ These are the time complexities for common sorting algorithms. Understanding the
 * Though Quick Sort has The Worst Complexity of O(N^2), With Some Optimizations it can perform equivalent to Merge Sort.
 * Since with Optimizations, In place Algo (does not require Space like Merge Sort) , It is internally Implemented as Default Sort in Most of the Languages.
 * https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/
+
+<h1> Useful Resources </h1>
+
+* https://atulkawasthi.medium.com/top-5-sorting-algorithms-built-in-function-in-programming-languages-which-sorting-internally-used-f1c1e3027ef4
