@@ -26,9 +26,11 @@ Note:
 
 <h2> Best Resources for Preparation</h2>
 
+* DSA Concepts & Program Implemnetation Visually : https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html 
 * Neetcode - https://www.youtube.com/@NeetCode/playlists
 * Striver's DSA Sheet : https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 * https://www.enjoyalgorithms.com/
+* https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 
 <h3> Best Explanations(Theortical / Visually) </h3>
 
