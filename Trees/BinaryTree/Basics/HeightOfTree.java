@@ -1,9 +1,6 @@
 package Trees.BinaryTree.Basics;
 
 import java.util.*;
-
-import javax.swing.tree.TreeNode;
-
 // NOTE: All the Approaches have Space and Time Complexity as O(N)
 
 public class HeightOfTree {
