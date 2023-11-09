@@ -2,6 +2,7 @@ package Trees.BinaryTree.Basics;
 
 import java.util.HashMap;
 import java.util.Stack;
+// The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
 
 public class DiameterOfBinaryTree {
     public int diameterOfBinaryTree(Node root) {
