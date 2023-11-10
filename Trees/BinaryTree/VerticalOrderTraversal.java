@@ -8,6 +8,7 @@ import java.util.Queue;
 import java.util.TreeMap;
 
 // https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+// If the Order would not have been constraint at Level, solution to this is enough . https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order
 public class VerticalOrderTraversal {
     class Tuple {
         Node node;
