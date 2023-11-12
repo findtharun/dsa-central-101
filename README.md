@@ -56,8 +56,7 @@ Note:
 * Datastructures in Java : https://youtu.be/WqDvLBOaWXY
 * Collections in Java : https://www.youtube.com/playlist?list=PLFGoYjJG_fqoDQHufg7XVk-yb2w6CNpgF
 
-<h2> Best Tools / Sites for Understanding Algorithms and Problems
-
+<h2> Best Tools / Sites for Understanding Algorithms and Problems </h2>
 
 * Java Code Visulizer : 
 * Algorithms Visualization  : 
