@@ -39,6 +39,20 @@ public class InOrderTraversal {
         return inOrder;
     }
 
+    /* Inorder Traversal Using Stack */
+    // while (curr != null || stack.size() > 0)
+    //     {
+    //         while (curr !=  null)
+    //         {
+    //             curr = curr.left;
+    //         }
+ 
+    //         // Current must be NULL at this point
+    //         curr = s.pop();
+    //         System.out.print(curr.data + " ");
+    //         curr = curr.right;
+    //     }
+    // }
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5, 6, 6, 6, 6 };
         // Node root = insertLevelOrderRecursive(arr, 0);
