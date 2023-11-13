@@ -24,7 +24,7 @@ Note:
 
 - Unmodifiable View: Functions like Collections.unmodifiableList(), Collections.unmodifiableSet(), and Collections.unmodifiableMap() return unmodifiable views of the specified collections, making them read-only.
 
-<h2> Best Resources for Preparation</h2>
+### Best Resources for Preparation
 
 * DSA Concepts & Program Implemnetation Visually : https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html 
 * Neetcode - https://www.youtube.com/@NeetCode/playlists
@@ -33,7 +33,7 @@ Note:
 * https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 * https://github.com/ashishps1/awesome-leetcode-resources
 
-<h3> Best Explanations(Theortical / Visually) </h3>
+### Best Explanations(Theortical / Visually)
 
 * Best Theory Explanations
     * Abdul Bari
@@ -42,22 +42,25 @@ Note:
     * https://www.youtube.com/@TechWithNikola/videos
 
 
-<h2> Best Problems Listed </h2>
+### Best Problems Listed
 
 * https://www.designgurus.io/blind75
 * https://neetcode.io/practice
 * https://algo.monster/dashboard
 * Sorting and Searching : https://cses.fi/problemset/
 
-<h2> Best Videos/Blogs for Learning Java</h2>
+### Best Videos/Blogs for Learning Java
 
 * Java Core Concepts in Detail : https://jenkov.com/
 * https://www.geeksforgeeks.org/java/
 * Datastructures in Java : https://youtu.be/WqDvLBOaWXY
 * Collections in Java : https://www.youtube.com/playlist?list=PLFGoYjJG_fqoDQHufg7XVk-yb2w6CNpgF
 
-<h2> Best Tools / Sites for Understanding Algorithms and Problems </h2>
+### Best Tools / Sites for Understanding Algorithms and Problems
 
 * Java Code Visulizer : https://pythontutor.com/java.html
 * Algorithms Visualization  : https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 * Height Map Visualizer : https://editor.p5js.org/LeweyM/full/RpAxMlZL4
+
+### CheatSheets
+* https://www.piratekingdom.com/leetcode/templates
