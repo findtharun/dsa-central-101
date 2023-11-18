@@ -2,7 +2,7 @@ package Trees.BinaryTree;
 
 import java.util.HashMap;
 
-public class ConstructTreeFromPreIn {
+public class ConstructTreeFromPreInOrder {
     private int preorderIdx = 0;
 
     public Node buildTree(int[] preorder, int[] inorder) {
