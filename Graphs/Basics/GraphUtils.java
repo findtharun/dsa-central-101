@@ -2,7 +2,7 @@ package Graphs.Basics;
 
 import java.util.*;
 
-public class CreateGraph {
+public class GraphUtils {
     public static void main(String[] args) {
         int V = 6;
         GraphUsingAdjList g = new GraphUsingAdjList(V);
@@ -16,9 +16,12 @@ public class CreateGraph {
         System.out.println(g);
         BFSTraversal bfsObj = new BFSTraversal();
         DFSTraversal dfsObj = new DFSTraversal();
-        ArrayList<Integer> bfsRes = bfsObj.bfsOfGraph(V, g.adjList);
-        System.out.println("BFS Traversal: " + bfsRes);
+        DFSIterativeTraversal dfsIterObj = new DFSIterativeTraversal();
+        // ArrayList<Integer> bfsRes = bfsObj.bfsOfGraph(V, g.adjList);
+        // System.out.println("BFS Traversal: " + bfsRes);
         ArrayList<Integer> dfsRes = dfsObj.dfsOfGraph(V, g.adjList);
         System.out.println("DFS Traversal: " + dfsRes);
+        ArrayList<Integer> dfsIterRes = dfsIterObj.iterativeDfsOfGraph(V, g.adjList);
+        System.out.println("DFS Iterative Traversal: " + dfsIterRes);
     }
 }
