@@ -24,5 +24,4 @@ public class GraphUsingAdjMatrix {
                 ", adjList =" + Arrays.deepToString(adjMatrix) +
                 '}';
     }
-
 }
