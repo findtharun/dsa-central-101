@@ -8,7 +8,7 @@ public class DFSApproach {
         vis[node] = true;
 
         // Traverse through all adjacent nodes
-        for (Integer neighbour : adj.get(node)) {
+        for (int neighbour : adj.get(node)) {
             // If the adjacent node is not visited, recursively check for a cycle
             if (vis[neighbour] == false) {
                 if (checkForCycle(neighbour, node, vis, adj) == true)
