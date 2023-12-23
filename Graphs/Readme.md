@@ -46,6 +46,8 @@ A Graph is a non-linear data structure consisting of vertices and edges. The ver
 
 - Most real world Graphs are Sparse.
 
+- If a Graph has a Cycle with Odd Number of Nodes - It can never be BiPartite.
+
 <h3> Representation of Graphs </h3>
 
 - Adjacency Matrix : Graph is stored in the form of the 2D matrix where rows and columns denote vertices. Each entry in the matrix represents the weight of the edge between those vertices
