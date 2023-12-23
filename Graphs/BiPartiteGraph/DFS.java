@@ -1,6 +1,6 @@
-package Graphs;
+package Graphs.BiPartiteGraph;
 
-public class BiPartiteGraph {
+public class DFS {
     // In Graph we can mark all nodes with 2 colors such that no adjacent will have same color.
     // If a Graph has a Cycle with Odd Number of Nodes - It can never be BiPartite.
     // Colors for Now are 0,1
