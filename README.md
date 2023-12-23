@@ -34,6 +34,7 @@ Note:
 * https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/index.html
 * https://github.com/ashishps1/awesome-leetcode-resources
 * Algorithms : https://www.algorithm-archive.org/
+* https://www.techinterviewhandbook.org/
 
 ### Best Explanations(Theortical / Visually)
 
