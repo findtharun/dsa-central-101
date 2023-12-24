@@ -1,4 +1,4 @@
-package Graphs.MultiSourceDFS;
+package Graphs.BFS_DFS.MultiSourceDFS;
 // https://leetcode.com/problems/surrounded-regions/description/
 public class SuuroundedRegions {
     int[] rowDir = { -1, 0, +1, 0 };

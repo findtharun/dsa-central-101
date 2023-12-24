@@ -1,4 +1,4 @@
-package Graphs.FloodFill;
+package Graphs.BFS_DFS.FloodFill;
 
 public class DFS {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {

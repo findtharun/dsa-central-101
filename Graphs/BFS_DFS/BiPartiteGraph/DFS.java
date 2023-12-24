@@ -1,4 +1,4 @@
-package Graphs.BiPartiteGraph;
+package Graphs.BFS_DFS.BiPartiteGraph;
 
 public class DFS {
     // In Graph we can mark all nodes with 2 colors such that no adjacent will have same color.

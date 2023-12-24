@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.BFS_DFS;
 // https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1
 import java.util.LinkedList;
 import java.util.Queue;

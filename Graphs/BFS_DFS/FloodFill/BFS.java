@@ -1,4 +1,4 @@
-package Graphs.FloodFill;
+package Graphs.BFS_DFS.FloodFill;
 
 import java.util.LinkedList;
 import java.util.Queue;
