@@ -56,6 +56,6 @@ public class AlienDictionary {
         for (int it : topologicalOrder) {
             ans = ans + (char) (it + (int) ('a'));
         }
-        return ans;
+        return ans.length() == K ? ans : ""; // For Failing Cases return Empty (Ex : When Cycle Exists)
     }
 }
