@@ -6,3 +6,7 @@ NOTE : Topological Ordering are not Unique </i></b>
 
 
 Best Intro : https://www.youtube.com/watch?v=eL-KzMXSXXI
+
+* Time Complexity for Topologic Sort
+    * DFS : O(V+E)
+    * BFS Kahns : O(V+E)

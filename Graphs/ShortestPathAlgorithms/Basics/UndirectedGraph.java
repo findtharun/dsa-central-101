@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/* Time Complexity: O(M) { for creating the adjacency list from given list ‘edges’} + O(N + 2M) { for the BFS Algorithm} + 
+O(N) { for adding the final values of the shortest path in the resultant array} ~ O(N+2M). */
 public class UndirectedGraph {
     public int[] shortestPath(int[][] edges, int n, int m, int src) {
         // Creating Adjacency List
