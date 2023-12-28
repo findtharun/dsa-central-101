@@ -42,13 +42,24 @@ public class ComparatorSort {
         };
         // Descending Order
         // Comparator<Employee> com = new Comparator<Employee>() {
-        //     public int compare(Employee e1, Employee e2) {
-        //         if (e1.age == e2.age) {
-        //             return e2.salary - e1.salary;
-        //         }
-        //         return e2.age - e1.age;
-        //     }
+        // public int compare(Employee e1, Employee e2) {
+        // if (e1.age == e2.age) {
+        // return e2.salary - e1.salary;
+        // }
+        // return e2.age - e1.age;
+        // }
         // };
+
+        /*
+         * Negative values indicate that e1 should precede e2 in the sorted order.
+         * Zero values indicate that e1 and e2 are considered equal for sorting.
+         * Positive values indicate that e1 should follow e2 in the sorted order.
+         * For descending order sorting, the logic is inverted:
+         * 
+         * Negative values indicate that e2 should precede e1 in the sorted order.
+         * Zero values indicate that e1 and e2 are considered equal for sorting.
+         * Positive values indicate that e2 should follow e1 in the sorted order.
+         */
 
         Collections.sort(employees, com);
         System.out.println(employees);
