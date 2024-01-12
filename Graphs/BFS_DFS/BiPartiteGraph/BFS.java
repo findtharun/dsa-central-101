@@ -10,7 +10,7 @@ public class BFS {
         int[] color = new int[V];
         Arrays.fill(color, -1);
         Queue<Integer> q = new LinkedList<>();
-        for (int i = 0; i < graph.length; i++) { // Graph may have Multiple Compoments, Hence a For Loop
+        for (int i = 0; i < V; i++) { // Graph may have Multiple Compoments, Hence a For Loop
             if (color[i] == -1) {
                 q.add(i);
                 color[i] = 0;
