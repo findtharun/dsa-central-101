@@ -20,9 +20,9 @@ public class KahnBFS {
                 q.offer(i);
         }
         // Cycle Found as There are no Nodes with InDegree 0
-        List<Integer> topologicalOrder = new ArrayList<>();
         if (q.size() == 0)
             return true;
+        List<Integer> topologicalOrder = new ArrayList<>();
         while (q.size() > 0) {
             int curr_node = q.peek();
             topologicalOrder.add(curr_node);
