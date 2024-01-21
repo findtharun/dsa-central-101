@@ -17,7 +17,8 @@ class Pair {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { 
+        // For Adding Element to Set, It checks whether already existing or not , this function should be implemented If we have custom Class
         if (this == o)
             return true;
         if (o == null || getClass() != o.getClass())

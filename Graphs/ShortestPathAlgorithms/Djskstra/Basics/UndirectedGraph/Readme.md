@@ -1,5 +1,5 @@
 
-Different Approaches 
+Different Approaches for Finding Shortest Path from Source to All nodes using Dijkastra's Algorithm
 
 1. Using Priority Queue (Recommended)
     * Time Complexity : O( E log(V) )
