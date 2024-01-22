@@ -1,4 +1,4 @@
-package Graphs.ShortestPathAlgorithms.Djskstra.Basics;
+package Graphs.ShortestPathAlgorithms.Djskstra;
 
 import java.util.PriorityQueue;
 
