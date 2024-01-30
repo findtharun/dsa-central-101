@@ -8,17 +8,19 @@ import java.util.Set;
 import java.util.Iterator;
 
 class Pair {
-    int distance;
     int node;
+    int distance;
 
-    Pair(int distance, int node) {
-        this.distance = distance;
+    Pair(int node, int distance) {
         this.node = node;
+        this.distance = distance;
+
     }
 
     @Override
-    public boolean equals(Object o) { 
-        // For Adding Element to Set, It checks whether already existing or not , this function should be implemented If we have custom Class
+    public boolean equals(Object o) {
+        // For Adding Element to Set, It checks whether already existing or not , this
+        // function should be implemented If we have custom Class
         if (this == o)
             return true;
         if (o == null || getClass() != o.getClass())
@@ -41,7 +43,7 @@ public class HashSetApproach {
         int[] dist = new int[V];
         Arrays.fill(dist, (int) 1e9);
 
-        st.add(new Pair(0, S)); // Distance from Source to Itself is 0;
+        st.add(new Pair(S, 0)); // Distance from Source to Itself is 0;
         dist[S] = 0;
 
         while (st.size() > 0) {
@@ -58,7 +60,8 @@ public class HashSetApproach {
                 int edgeWeight = adj.get(curr_node).get(i).get(1);
                 if (curr_distance + edgeWeight < dist[adjNode]) {
                     if (dist[adjNode] != (int) 1e9)
-                        st.remove(new Pair(dist[adjNode], adjNode)); // No Point in Having Distance More Path, Hence Removing here.
+                        st.remove(new Pair(adjNode,dist[adjNode])); // No Point in Having Distance More Path, Hence
+                                                                     // Removing here.
                     dist[adjNode] = curr_distance + edgeWeight;
                     st.add(new Pair(dist[adjNode], adjNode));
                 }

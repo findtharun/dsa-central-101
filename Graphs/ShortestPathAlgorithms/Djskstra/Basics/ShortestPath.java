@@ -3,12 +3,12 @@ package Graphs.ShortestPathAlgorithms.Djskstra.Basics;
 import java.util.*;
 
 class Pair {
-    int distance;
     int node;
+    int distance;
 
-    Pair(int distance, int node) {
-        this.distance = distance;
+    Pair(int node, int distance) {
         this.node = node;
+        this.distance = distance;
     }
 }
 
@@ -46,7 +46,7 @@ public class ShortestPath {
 
                 if (distance + edgeWeight < dist[adjNode]) {
                     dist[adjNode] = distance + edgeWeight;
-                    pq.add(new Pair(dist[adjNode], adjNode));
+                    pq.add(new Pair(adjNode,dist[adjNode] ));
                     parent[adjNode] = node;
 
                 }

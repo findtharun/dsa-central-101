@@ -5,12 +5,12 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 class Pair {
-    int distance;
     int node;
+    int distance;
 
-    Pair(int distance, int node) {
-        this.distance = distance;
+    Pair(int node, int distance) {
         this.node = node;
+        this.distance = distance;
     }
 }
 
@@ -35,7 +35,7 @@ public class PriorityQueueApproach {
                 int edgeWeight = adj.get(curr_node).get(i).get(1);
                 if (curr_distance + edgeWeight < dist[adjNode]) {
                     dist[adjNode] = curr_distance + edgeWeight;
-                    pq.add(new Pair(dist[adjNode], adjNode));
+                    pq.add(new Pair(adjNode, dist[adjNode]));
                 }
             }
         }
