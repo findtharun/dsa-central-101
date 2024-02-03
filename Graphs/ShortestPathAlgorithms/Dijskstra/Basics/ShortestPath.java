@@ -1,4 +1,4 @@
-package Graphs.ShortestPathAlgorithms.Djskstra.Basics;
+package Dijskstra.Basics;
 
 import java.util.*;
 
