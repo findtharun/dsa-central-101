@@ -1,3 +1,4 @@
+## Dijkstra Algorithm
 
 Different Approaches for Finding Shortest Path from Source to All nodes using Dijkastra's Algorithm
 
@@ -11,3 +12,8 @@ Different Approaches for Finding Shortest Path from Source to All nodes using Di
 But Set Always Tries to Sort all things, Hence Would Take More Time, Where as Priority Queue Implementation we will get the Smallest one , rest of the heap need not be sorted always.
 
 Time Complexity Explanation : https://youtu.be/3dINsjyfooY
+
+### Limitations
+
+Dijkstra Fails when there are Negative Edges, Gets TLE when there is Negtaive Cycle.
+ (Bellman Ford, Floyd Warshal Algorithms can be used in that case).

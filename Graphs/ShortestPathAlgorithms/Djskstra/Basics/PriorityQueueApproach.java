@@ -1,4 +1,4 @@
-package Graphs.ShortestPathAlgorithms.Djskstra.Basics.UndirectedGraph;
+package Graphs.ShortestPathAlgorithms.Djskstra.Basics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
