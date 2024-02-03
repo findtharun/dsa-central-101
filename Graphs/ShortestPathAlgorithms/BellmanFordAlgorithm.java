@@ -1,9 +1,13 @@
-package Graphs;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-// Time Complexity: O(V*E)
-// https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/
+
+/*
+ * To Find Shortest Path from Source to every Node in Directed Graph.
+ * Time Complexity: O(V*E) 
+ * https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/
+ * NOTE : For un Directed Graphs, Turn it to Directed First or Handle while calculating Distance
+ */
+
 public class BellmanFordAlgorithm {
     static int[] bellman_ford(int V, ArrayList<ArrayList<Integer>> edges, int S) {
         int[] dist = new int[V];
