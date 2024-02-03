@@ -1,4 +1,4 @@
-package Graphs.ShortestPathAlgorithms.Basics;
+package Basics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
