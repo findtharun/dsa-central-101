@@ -23,10 +23,18 @@ public class FloydWarshallAlgorithm {
                 }
             }
         }
+
+        /* 
+            To Handle Negative Cycle
+        for(int i = 0;i<n; i++){
+            if(matrix[i][i] <0) {
+                
+            }
+        } */
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (matrix[i][j] == 1e9) {
-                    matrix[i][j] = -1;
+                    matrix[i][j] = -1; // The Node can not be Reached
                 }
             }
         }
