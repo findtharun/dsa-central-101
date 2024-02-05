@@ -51,7 +51,7 @@ Note:
 * https://www.designgurus.io/blind75
 * https://neetcode.io/practice
 * https://algo.monster/dashboard
-* Sorting and Searching : https://cses.fi/problemset/
+* https://cses.fi/problemset/  (https://github.com/Jonathan-Uy/CSES-Solutions)
 
 ### Best Videos/Blogs for Learning Java
 
