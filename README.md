@@ -52,6 +52,7 @@ Note:
 * https://neetcode.io/practice
 * https://algo.monster/dashboard
 * https://cses.fi/problemset/  (https://github.com/Jonathan-Uy/CSES-Solutions)
+* https://www.interviewcake.com/
 
 ### Best Videos/Blogs for Learning Java
 
