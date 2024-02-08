@@ -1,3 +1,4 @@
+package Fundamentals;
 public class Baiscs {
     //  Parameterized or Tail recursive
     public static void funcParam(int i, int sum) {
