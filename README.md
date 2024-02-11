@@ -64,7 +64,8 @@ Note:
 ### Best Tools / Sites for Understanding Algorithms and Problems
 
 * Java Code Visulizer : https://pythontutor.com/java.html
-* Algorithms Visualization 
+* Algorithms Visualization
+    * https://algorithm-visualizer.org/
     * https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
     * https://visualgo.net/
 * Height Map Visualizer : https://editor.p5js.org/LeweyM/full/RpAxMlZL4
