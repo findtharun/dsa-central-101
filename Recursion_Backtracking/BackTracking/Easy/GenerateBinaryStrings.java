@@ -1,3 +1,4 @@
+package Recursion_Backtracking.BackTracking.Easy;
 /* 
  * https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/
  * Note : If you just want to return the Number, it is equivalent to Nth Fibonacci 
@@ -10,7 +11,7 @@ import java.util.List;
 public class GenerateBinaryStrings {
     public static void generateStringHelper(int k, char str[], int n, List<String> ans) {
 
-        // Terminate binary string and push in answer.
+        // Terminate binary string and push in answer. We are Achieving solution while tracing back
         if (n == k) {
             ans.add(new String(str));
             return;

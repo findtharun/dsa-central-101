@@ -1,9 +1,10 @@
+package Recursion_Backtracking.BackTracking.Easy;
 import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateParentheses {
     public static List<String> generateParenthesisAns(String p, int open, int close, int n, ArrayList<String> list) {
-        if (open == n && close == n) {
+        if (open == n && close == n) { // We are Achieving solution while tracing back
             list.add(p);
             return list;
         }
