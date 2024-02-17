@@ -1,4 +1,4 @@
-# The_DSA_Den
+# DSA Central 101
 This Repository Contains Various Approaches to Solving a Problem,  Serves as a Guide to Preparing for Interviews
 ## Time Complexities of Common Operations for Java Collections
 
