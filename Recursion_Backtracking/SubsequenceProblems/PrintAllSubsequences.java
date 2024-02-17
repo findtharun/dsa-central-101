@@ -4,7 +4,7 @@ import java.util.*;
 
 public class PrintAllSubsequences {
 
-    public static void printSubsequences(int[] arr, int index, ArrayList<Integer> path) {
+    public static void printSubsequencesCleanCode(int[] arr, int index, ArrayList<Integer> path) {
         if (index == arr.length) {
             if (path.size() > 0)
                 System.out.println(path);
@@ -12,6 +12,18 @@ public class PrintAllSubsequences {
             printSubsequences(arr, index + 1, new ArrayList<>(path)); // Do Not Take Current Element
             path.add(arr[index]); // Take the Current Element
             printSubsequences(arr, index + 1, new ArrayList<>(path));
+        }
+    }
+
+    public static void printSubsequences(int[] arr, int index, ArrayList<Integer> path) {
+        if (index == arr.length) {
+            if (path.size() > 0)
+                System.out.println(path);
+        } else {
+            path.add(arr[index]); // Take the Current Element
+            printSubsequences(arr, index + 1, path); // Do Not Take Current Element
+            path.remove(path.size()-1);
+            printSubsequences(arr, index + 1, path);
         }
     }
 
