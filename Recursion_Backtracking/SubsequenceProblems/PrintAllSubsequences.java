@@ -21,8 +21,8 @@ public class PrintAllSubsequences {
                 System.out.println(path);
         } else {
             path.add(arr[index]); // Take the Current Element
-            printSubsequences(arr, index + 1, path); // Do Not Take Current Element
-            path.remove(path.size()-1);
+            printSubsequences(arr, index + 1, path); 
+            path.remove(path.size()-1); // Do Not Take Current Element
             printSubsequences(arr, index + 1, path);
         }
     }
