@@ -1,4 +1,4 @@
-package Recursion_Backtracking.SubsequenceProblems;
+package Recursion_Backtracking;
 
 import java.util.*;
 
@@ -28,7 +28,7 @@ public class PrintAllSubsequences {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3 };
+        int[] arr = { 3,1,2 };
         ArrayList<Integer> path = new ArrayList<>();
         printSubsequences(arr, 0, path);
     }
