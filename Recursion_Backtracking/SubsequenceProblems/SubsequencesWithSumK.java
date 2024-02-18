@@ -1,14 +1,12 @@
 package Recursion_Backtracking.SubsequenceProblems;
 
-import java.util.ArrayList;
+import java.util.*;
 
 /*
  * https://www.geeksforgeeks.org/find-all-subsequences-with-sum-equals-to-k/
  */
 public class SubsequencesWithSumK {
-    static ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
-
-    public static void subSequenceSum(int a[], int ind, ArrayList<Integer> currSeq, int currSum, int k) {
+    public static void subSequenceSum(int a[], int ind, ArrayList<Integer> currSeq, int currSum, int k, List<List<Integer>> ans) {
         if (ind == a.length) {
             if (currSum == k) {
                 ans.add(new ArrayList<>(currSeq)); // Create a copy of currSeq before adding to ans
@@ -19,19 +17,20 @@ public class SubsequencesWithSumK {
         // Include the current element
         currSum += a[ind];
         currSeq.add(a[ind]);
-        subSequenceSum(a, ind + 1, currSeq, currSum, k);
+        subSequenceSum(a, ind + 1, currSeq, currSum, k,ans);
 
         // Exclude the current element
         currSum -= a[ind];
         currSeq.remove(currSeq.size() - 1);
-        subSequenceSum(a, ind + 1, currSeq, currSum, k);
+        subSequenceSum(a, ind + 1, currSeq, currSum, k,ans);
     }
 
     // Driver Code
     public static void main(String args[]) {
         int arr[] = { 5, 12, 3, 17, 1, 18, 15, 3, 17 };
         int k = 6;
-        subSequenceSum(arr, 0, new ArrayList<Integer>(), 0, k);
+        List<List<Integer>> ans = new ArrayList<>();
+        subSequenceSum(arr, 0, new ArrayList<Integer>(), 0, k, ans);
 
         // Loop to print the subsequences
         for (int i = 0; i < ans.size(); i++) {

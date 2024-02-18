@@ -1,3 +1,4 @@
+package Recursion_Backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,6 +22,6 @@ public class PrintAllSubsets {
 
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3 };
-        generateSubsets(nums);
+        generateSubsets(nums); 
     }
 }
