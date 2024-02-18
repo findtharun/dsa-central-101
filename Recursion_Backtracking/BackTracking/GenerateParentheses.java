@@ -1,4 +1,4 @@
-package Recursion_Backtracking.BackTracking.Easy;
+package Recursion_Backtracking.BackTracking;
 import java.util.ArrayList;
 import java.util.List;
 

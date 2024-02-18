@@ -1,4 +1,4 @@
-package Recursion_Backtracking.BackTracking.Easy;
+package Recursion_Backtracking.BackTracking;
 /* 
  * https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/
  * Note : If you just want to return the Number, it is equivalent to Nth Fibonacci 
