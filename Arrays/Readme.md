@@ -14,12 +14,16 @@
 
 ```
 Array = [3,1,2]
+No. of Elements in 
+    Subarray = n*(n+1)/2
+    Subseqeunce = (2^n) -1 (non-empty subsequences)
+    Subset = 2^n
 ```
 |            | Definition                                  | Example                        |
 |------------|---------------------------------------------|--------------------------------|
-| Subset     | A selection of elements from a set or array - 2^n Subsets | `3`,`1`. `2`, `31`, `32`, `312`,` `, |
+| Subset     | A selection of elements from a set or array - 2^n Subsets | `3`,`1`. `2`, `31`, `32`, `321`,` `, |
 | Subarray   | A contiguous subset of elements in an array | `[3]`, `[1, 2]`, `[1]`, `[2]`, `[3, 1]`, `[1, 2]`, `[3, 1, 2]` |
-| Subsequence| A sequence derived by deleting elements from the original sequence without changing their order | `3`, `1`, `2`, `31`, `32`, `312`, `321` |
+| Subsequence| A sequence derived by deleting elements from the original sequence without changing their order | `3`, `1`, `2`, `31`, `32`, `312` |
 
 
 
