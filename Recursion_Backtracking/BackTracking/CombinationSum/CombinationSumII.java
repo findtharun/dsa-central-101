@@ -13,7 +13,7 @@ public class CombinationSumII {
             res.add(new ArrayList<>(currSeq));
         } else {
             for (int i = start; i < candidates.length; i++) {
-                if (i > start && candidates[i] == candidates[i - 1])
+                if (i > start && candidates[i] == candidates[i - 1]) // i>start ensures that we don't skip the first occurence of the Duplicate
                     continue; // Skip Duplicates, Go to Next Loop
                 currSeq.add(candidates[i]);
                 backTrack(candidates, i + 1, currSeq, target - candidates[i], res);

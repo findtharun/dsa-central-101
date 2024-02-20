@@ -75,7 +75,9 @@ Recursion Explained Easily : https://youtu.be/ngCos392W4w
       func(i-1,n);
   }
   ```
+### BackTracking Recipe
 
+![](Images/BackTrackingRecipe.png)
 
 ## Useful Resources for Recursion and BackTracking
 
