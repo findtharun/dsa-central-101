@@ -3,7 +3,7 @@ package Recursion_Backtracking.PrintAllSubsets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Optimized {
+public class RecursionNsplit {
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         // Arrays.sort(nums);
