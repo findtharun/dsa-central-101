@@ -5,9 +5,14 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class BruteForce {
-    static boolean validate(char[][] board, int row, int col) {
+    /*
+     * Is Safe Function, we only Check whether all Left Directions are Safe because
+     * we go from Left to Right, So No Need to Check for Right Direction
+     */
+    static boolean isSafe(char[][] board, int row, int col) {
         int duprow = row;
         int dupcol = col;
+        // Left Upper Diagonal
         while (row >= 0 && col >= 0) {
             if (board[row][col] == 'Q')
                 return false;
@@ -17,6 +22,7 @@ public class BruteForce {
 
         row = duprow;
         col = dupcol;
+        // Left Direction
         while (col >= 0) {
             if (board[row][col] == 'Q')
                 return false;
@@ -25,6 +31,7 @@ public class BruteForce {
 
         row = duprow;
         col = dupcol;
+        // Left Lower Diagonal
         while (col >= 0 && row < board.length) {
             if (board[row][col] == 'Q')
                 return false;
@@ -50,7 +57,7 @@ public class BruteForce {
         }
 
         for (int row = 0; row < board.length; row++) {
-            if (validate(board, row, col)) {
+            if (isSafe(board, row, col)) {
                 board[row][col] = 'Q';
                 dfs(col + 1, board, res);
                 board[row][col] = '.';
