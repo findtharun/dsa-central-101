@@ -1,6 +1,12 @@
 package Recursion_Backtracking.BackTracking.RatMaze;
-// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+
 import java.util.*;
+
+/*
+ * https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+ * Time : O(4^N*N)
+ * Space : O(N*N)
+ */
 
 // m is the given matrix and n is the order of matrix
 public class Solution {
