@@ -1,5 +1,5 @@
 package Recursion_Backtracking.BackTracking;
-
+// Time Complexity: O(9(n ^ 2))
 public class SudokuSolver {
     public static boolean isValid(char[][] board, int row, int col, char c) {
         for (int i = 0; i < board.length; i++) {
