@@ -4,4 +4,4 @@
 | :--------------------: | :-------------: | :--------------: |
 |       Recursion        |     O(2^n)      |       O(n)       |
 | Top Down / Memoization |      O(n)       |       O(n)       |
-| BottomUp / Tabulation  |      O(n)       |       O(1)       |
+| BottomUp / Tabulation  |      O(n)       |       O(n)       |
