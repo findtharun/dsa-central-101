@@ -18,6 +18,12 @@ There are two common approaches to implementing dynamic programming:
 
 - **Bottom-Up Approach (Tabulation)**: In this approach, the problem is solved by iteratively solving all smaller subproblems and using their solutions to solve larger subproblems. It involves building up solutions from the bottom by starting with the smallest subproblems and progressively solving larger ones.
 
+### Tips & Tricks
+
+- Thumb Rule for Top Down and Bottom Up 
+    - If you start from n-1/n-2.. in Memoization, you will start from 0 in Tabulaton (Check DP 2D Ninja Training Solution)
+    - If you start from 0 in Memoization, You will start from end (n-1,n-2..) in Tabulation (Check DP 2D Unique Paths Solution)
+
 ### Identify DP Problems
 - Typically, all the problems that require maximizing or minimizing certain quantities or counting problems that say to count the arrangements under certain conditions or certain probability problems can be solved by using Dynamic Programming.
 All dynamic programming problems satisfy the overlapping subproblems property and most of the classic Dynamic programming problems also satisfy the optimal substructure property.
