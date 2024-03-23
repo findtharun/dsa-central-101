@@ -15,7 +15,6 @@ public class Tabulation {
         // Iterate through each day and each activity
         for (int day = 1; day < n; day++) {
             for (int last = 0; last < 4; last++) {
-                dp[day][last] = 0; // Initialize the maximum points for the current day and last activity
                 // Consider each possible task for the current day
                 for (int task = 0; task <= 2; task++) {
                     if (task != last) { // Ensure that the current task is different from the last
