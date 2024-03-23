@@ -2,6 +2,8 @@ package DynamicProgramming.DP2D.NinjaTraining;
 
 import java.util.Arrays;
 
+// helper(n-1,1) --> Give me the Merit Points from 0 to n-1 Days if Ninja Performs 1st task on last day (i.e - n)
+// helper(n-1,3) --> No task is Performed Yet on that day
 public class Memoization {
     public static int helper(int day, int lastCompletedTask, int[][] points, int[][] dp) {
         if (day == 0) {

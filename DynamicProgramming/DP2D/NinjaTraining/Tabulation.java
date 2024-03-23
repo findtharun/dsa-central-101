@@ -29,7 +29,7 @@ public class Tabulation {
             }
         }
 
-        // Return the maximum points achievable after all days (last activity is 3)
+        // Return the maximum points achievable after all days
         return dp[n - 1][3];
     }
 }
