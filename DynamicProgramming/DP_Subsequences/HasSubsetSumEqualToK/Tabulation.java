@@ -5,8 +5,8 @@ public class Tabulation {
         boolean dp[][] = new boolean[n][k + 1];
 
         // Subset with Target Sum as 0
-        for (int i = 0; i < n; i++) {
-            dp[i][0] = true;
+        for (int ind = 0; ind < n; ind++) {
+            dp[ind][0] = true;
         }
 
         if (arr[0] <= k) {
