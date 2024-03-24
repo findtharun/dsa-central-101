@@ -12,7 +12,7 @@ public class Tabulation {
             dp[0][num[0]] = 1;
 
         for (int ind = 1; ind < n; ind++) {
-            for (int target = 1; target <= tar; target++) {
+            for (int target = 0; target <= tar; target++) {
                 int notTake = dp[ind - 1][target];
                 int take = 0;
                 if (num[ind] <= target) {
