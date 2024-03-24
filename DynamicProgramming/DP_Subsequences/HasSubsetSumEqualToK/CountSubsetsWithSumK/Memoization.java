@@ -1,4 +1,4 @@
-package DynamicProgramming.DP_Subsequences.HasSubsetSumEqualToK.SubsetsWithSumK;
+package DynamicProgramming.DP_Subsequences.HasSubsetSumEqualToK.CountSubsetsWithSumK;
 
 // https://www.codingninjas.com/studio/problems/count-subsets-with-sum-k_3952532
 
