@@ -4,7 +4,7 @@ public class Tabulation {
     public static boolean subsetSumToK(int n, int k, int arr[]) {
         boolean dp[][] = new boolean[n][k + 1];
 
-        // Initialize the first row of the DP table
+        // Subset with Target Sum as 0
         for (int i = 0; i < n; i++) {
             dp[i][0] = true;
         }
