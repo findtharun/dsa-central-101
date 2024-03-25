@@ -6,7 +6,7 @@ public class Tabulation {
         int[][] dp = new int[n][tar + 1];
 
         for (int ind = 0; ind < n; ind++)
-            dp[ind][0] = 1; // Not Take the Element to reach target sum 0
+            dp[ind][0] = 1; // Empty Subset is a way to reach target sum 0
         if (num[0] == 0)
             dp[0][0] = 2; //Because Take = 0 , Not Take (Total 2)
         if (num[0] <= tar && num[0] != 0)
