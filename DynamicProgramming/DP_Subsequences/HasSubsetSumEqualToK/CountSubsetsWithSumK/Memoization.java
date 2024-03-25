@@ -7,7 +7,9 @@ import java.util.Arrays;
 public class Memoization {
     public static int subsetsWithSumK(int ind, int[] num, int k, int[][] dp) {
         if (ind == num.length) {
-            if (k == 0)
+            if (k == 0 && num[num.length - 1] == 0)
+                return 2;
+            if (k == 0 || num[num.length - 1] == 0)
                 return 1;
             return 0;
         }
