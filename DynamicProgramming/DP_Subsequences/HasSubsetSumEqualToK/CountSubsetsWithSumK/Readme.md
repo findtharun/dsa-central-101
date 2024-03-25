@@ -1,3 +1,5 @@
+https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
+
 https://www.codingninjas.com/studio/problems/count-subsets-with-sum-k_3952532
 
 In this Problem , Array contains 0 - Hence base case changes a lot.

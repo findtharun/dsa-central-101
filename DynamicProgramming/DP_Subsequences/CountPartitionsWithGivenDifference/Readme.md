@@ -1,0 +1,1 @@
+https://www.codingninjas.com/studio/problems/partitions-with-given-difference_3751628
