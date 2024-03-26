@@ -19,7 +19,7 @@ public class SpaceOptimization {
                 if (coins[ind] <= target)
                     // We can Take Multiple Coins of Same Type, So Same index is Taken
                     take = 1 + curr[target - coins[ind]]; 
-                curr[target] = Math.min(take, notTake);
+                curr[target] = Math.min(take, notTake); // // Since we Take the Same Index we take curr instead of Prev
             }
             prev = curr.clone();
         }
