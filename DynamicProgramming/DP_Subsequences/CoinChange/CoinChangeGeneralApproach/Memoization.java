@@ -1,7 +1,13 @@
-package DynamicProgramming.DP1D.CoinChange;
+package DynamicProgramming.DP_Subsequences.CoinChange.CoinChangeGeneralApproach;
 
-public class Recursion {
+import java.util.Arrays;
+
+public class Memoization {
+    int[] dp;
+
     public int coinChange(int[] coins, int amount) {
+        dp = new int[amount + 1];
+        Arrays.fill(dp, -1);
         int ans = coinCount(coins, amount);
         return (ans == Integer.MAX_VALUE) ? -1 : ans;
     }
@@ -11,6 +17,11 @@ public class Recursion {
             return 0;
         if (amount < 0)
             return Integer.MAX_VALUE;
+
+        if (dp[amount] != -1) {
+            return dp[amount];
+        }
+
         int minCoins = Integer.MAX_VALUE;
         for (int coin : coins) {
             int ans = coinCount(coins, amount - coin);
@@ -18,6 +29,7 @@ public class Recursion {
                 minCoins = Math.min(minCoins, 1 + ans);
             }
         }
-        return minCoins;
+        dp[amount] = minCoins;
+        return dp[amount];
     }
 }

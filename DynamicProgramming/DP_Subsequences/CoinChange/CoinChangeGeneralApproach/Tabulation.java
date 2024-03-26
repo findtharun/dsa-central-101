@@ -1,4 +1,4 @@
-package DynamicProgramming.DP1D.CoinChange;
+package DynamicProgramming.DP_Subsequences.CoinChange.CoinChangeGeneralApproach;
 
 import java.util.Arrays;
 

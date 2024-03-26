@@ -1,0 +1,3 @@
+- Coin Change I Problem has 2 Solutions
+    - Subsequence Approach  (Preferred)
+    - General Approach
