@@ -14,7 +14,6 @@ public class Memoization {
             return dp[ind][amount];
         int notTake = coinChangeUtil(ind + 1, coins, amount, dp);
         int take = (int) Math.pow(10, 9);
-        ;
         if (coins[ind] <= amount)
             take = 1 + coinChangeUtil(ind, coins, amount - coins[ind], dp);
         return dp[ind][amount] = Math.min(take, notTake);
