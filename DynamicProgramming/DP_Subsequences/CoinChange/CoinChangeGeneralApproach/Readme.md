@@ -1,4 +1,4 @@
-- Recursion Takes O(2^n*amount) because at each step we make 2 recursive calls.
+- Recursion Takes O(2^n) because at each step we make 2 recursive calls.
 
 |        Approach        | Time Complexity | Space Complexity |
 | :--------------------: | :-------------: | :--------------: |

@@ -6,3 +6,9 @@ However, If we closely look at the Problem Statement, It states to find the Numb
 
 Consider the Test Case 
 [1,2,3,1]  , Target = 3
+
+|        Approach        | Time Complexity |     Space Complexity      |
+| :--------------------: | :-------------: | :-----------------------: |
+| Top Down / Memoization |     O(n\*S)     | O(n\*S) + Recursive Stack |
+| BottomUp / Tabulation  |     O(n\*S)     |          O(n\*S)          |
+|   Space Optimization   |     O(n\*S)     |           O(S)            |
