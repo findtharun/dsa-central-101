@@ -75,3 +75,4 @@ Note:
 
 ### CheatSheets
 * https://www.piratekingdom.com/leetcode/templates
+* https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/tree/main

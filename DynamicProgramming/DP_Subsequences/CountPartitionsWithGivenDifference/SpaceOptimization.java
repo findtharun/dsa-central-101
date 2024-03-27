@@ -26,7 +26,7 @@ public class SpaceOptimization {
 
                 cur[target] = (notTaken + taken) % mod;
             }
-            prev = cur;
+            prev = cur.clone();
         }
         return prev[tar];
     }
