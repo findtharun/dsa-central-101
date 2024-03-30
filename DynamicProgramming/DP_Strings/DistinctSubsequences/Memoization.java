@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Memoization {
     static int mod = (int) (Math.pow(10, 9) + 7);
-
+    // dp[i][j] represents distinct subsequences for s[:i] and t[:j]
     public int helper(int ind1, String s, int ind2, String t,int[][] dp) {
         if (ind2 >= t.length())
             return 1;
