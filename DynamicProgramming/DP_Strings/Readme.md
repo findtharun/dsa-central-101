@@ -3,13 +3,4 @@
 
 ```
 Order of Characters from Original string should remain the same for Both
-
-Eg : S = ABC
-Sub Strings : AB, BC
-SubSequences : AB, AC, BC
 ```
-
-<h2> Tips & Tricks </h2>
-
-- Convert Int to String ; int a = 222; String st = a + "";
-- Whenever solving Problems with Strings : convert the string to char array instead of using .charAt, the code will be much faster.
