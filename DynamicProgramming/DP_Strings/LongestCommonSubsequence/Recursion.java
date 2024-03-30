@@ -8,6 +8,7 @@ public class Recursion {
             ans = ans + text1.charAt(t1);
             return 1 + helper(text1, t1 + 1, text2, t2 + 1, ans);
         } else
+            // Subsequence can be obtained by skipping one or more characters
             return Math.max(helper(text1, t1, text2, t2 + 1, ans), helper(text1, t1 + 1, text2, t2, ans));
     }
 
