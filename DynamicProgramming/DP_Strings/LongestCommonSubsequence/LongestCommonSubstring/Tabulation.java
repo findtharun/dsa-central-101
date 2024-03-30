@@ -5,6 +5,7 @@ public class Tabulation {
         int n1 = str1.length();
         int n2 = str2.length();
         int[][] dp = new int[n1 + 1][n2 + 1];
+        // dp[i][j] represents Length of LCS with String s1[:i], String s2[:j]
         for (int i = 0; i <= n1; i++) {
             dp[i][0] = 0;
         }
