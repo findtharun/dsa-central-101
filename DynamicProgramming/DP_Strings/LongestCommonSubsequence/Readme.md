@@ -16,3 +16,5 @@ Though the Worst Case Time Complexities for Brute Force and DP are Same , in rea
 2. DP (Tabulation) it stores the results of subproblems in a table.
 3. DP Solutions are scalable for larger inputs.
 ```
+
+Longest Common Substring solution can also be achieved using the same Tabulation of Longest Common Subsequence, except that we can not elimiate the characters. (i.e Substring should be contiguos) Hence we will discard checking the diagonal values.

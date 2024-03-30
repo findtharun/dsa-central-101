@@ -17,6 +17,8 @@ public class Tabulation {
         for (int i = 0; i <= n2; i++) {
             dp[0][i] = 0;
         }
+
+        // dp[i][j] represents Length of LCS with String s1[:i], String s2[:j]
         for (int ind1 = 1; ind1 <= n1; ind1++) {
             for (int ind2 = 1; ind2 <= n2; ind2++) {
                 if (s1.charAt(ind1 - 1) == s2.charAt(ind2 - 1))

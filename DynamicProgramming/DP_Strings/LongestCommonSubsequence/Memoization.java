@@ -17,13 +17,13 @@ public class Memoization {
     }
 
     public static String findLCS(int n, int m, String s1, String s2) {
-        // Write your code here.
         String ans = "";
         int n1 = s1.length();
         int n2 = s2.length();
         int[][] dp = new int[n1][n2];
         for (int[] row : dp)
             Arrays.fill(row, -1);
+        // dp[i][j] represents Length of LCS with String s1[:i], String s2[:j]
         int len = helper(s1, 0, s2, 0, dp, ans);
         System.out.println(len); // Length of LCS
         return ans;
