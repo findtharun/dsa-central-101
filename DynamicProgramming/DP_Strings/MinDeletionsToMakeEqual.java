@@ -37,6 +37,7 @@ public class MinDeletionsToMakeEqual {
          * subsequence)
          * Insertions = len(word1) - len(lcs)
          * Deletions = len(word2) - len(lcs)
+         * Ex : abcd , anc - answer is 3
          */
         int n1 = word1.length();
         int n2 = word2.length();
