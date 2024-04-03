@@ -13,7 +13,7 @@ public class Recursion {
             }
             return true;
         }
-        if (i == S.length() || j == pattern.length()) {
+        if (j == pattern.length() && i < S.length()) {
             return false;
         }
         if (S.charAt(i) == pattern.charAt(j) || pattern.charAt(j) == '?')
