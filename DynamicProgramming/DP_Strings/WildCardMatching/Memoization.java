@@ -1,42 +1,39 @@
 package DynamicProgramming.DP_Strings.WildCardMatching;
 
-import java.util.Arrays;
-
 public class Memoization {
-    public int wildcardMatchingUtil(int i, int j, String S, String pattern, int[][] dp) {
+    public boolean wildcardMatchingUtil(int i, int j, String S, String pattern, Boolean[][] dp) {
         if (i == S.length() && j == pattern.length())
-            return 1;
-        // S is Exhausted, check if remaining characters are all '*'.
+            return true;
+        // S is Exhausted, check if remaining characters in Pattern are all '*'.
         // If yes, they can be empty and Match happens
         if (i == S.length()) {
             for (int k = j; k < pattern.length(); k++) {
                 if (pattern.charAt(k) != '*')
-                    return 0;
+                    return false;
             }
-            return 1;
+            return true;
         }
-        if (i == S.length() || j == pattern.length()) {
-            return 0;
+        if (j == pattern.length() && i < S.length()) {
+            return false;
         }
-        if (dp[i][j] != -1) {
+        if (dp[i][j] != null)
             return dp[i][j];
-        }
         if (S.charAt(i) == pattern.charAt(j) || pattern.charAt(j) == '?')
             return dp[i][j] = wildcardMatchingUtil(i + 1, j + 1, S, pattern, dp);
         else if (pattern.charAt(j) == '*') {
             // Two possibilities when encountering '*':
             // 1. '*' matches one or more characters in S.
             // 2. '*' matches zero characters in S.
-            return dp[i][j] = wildcardMatchingUtil(i + 1, j, S, pattern, dp) +
+            return dp[i][j] = wildcardMatchingUtil(i + 1, j, S, pattern, dp) ||
                     wildcardMatchingUtil(i, j + 1, S, pattern, dp);
         } else
-            return 0;
+            return dp[i][j] = false;
     }
 
     public boolean isMatch(String s, String p) {
-        int[][] dp = new int[s.length()][p.length()];
-        for (int[] row : dp)
-            Arrays.fill(row, -1);
-        return wildcardMatchingUtil(0, 0, s, p, dp) == 0 ? false : true;
+        int n = s.length();
+        int m = p.length();
+        Boolean[][] dp = new Boolean[n][m];
+        return wildcardMatchingUtil(0, 0, s, p, dp);
     }
 }
