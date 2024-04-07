@@ -7,9 +7,7 @@ public class Tabulation {
         int[][] dp = new int[n1 + 1][n2 + 1];
         /*
          * The value dp[i][j] represents the minimum edit distance between the
-         * substrings word1[:i]
-         * and word2[:j], where word1[:i] represents the substring of word1 starting
-         * from index i.
+         * substrings word1[:i] and word2[:j]
          */
         for (int i = 0; i <= n1; i++) {
             dp[i][0] = i; // If Only 1 Character in word2, to Match We need to Make I Operations
