@@ -1,7 +1,7 @@
 package DynamicProgramming.DP_Stocks.Buy_Sell_Stock_II;
 
 import java.util.*;
-
+// We just Copied recurrence relation from Memoization, in Memoization we traversed from 0, hence we are travsering from n here.
 public class Tabulation {
     public int maxProfit(int[] prices) {
         int n = prices.length;

@@ -3,8 +3,8 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 
 Recuursion take O(2^N) - At each day we can buy or sell
 
-|       Approach        | Time Complexity | Space Complexity |
-| :-------------------: | :-------------: | :--------------: |
-| BottomUp / Tabulation |      O(n)       |       O(n)       |
-| BottomUp / Tabulation |      O(n)       |       O(1)       |
-|       Standard        |      O(n)       |       O(1)       |
+|       Approach        | Time Complexity |    Space Complexity    |
+| :-------------------: | :-------------: | :--------------------: |
+| Top Donw/ Memoization |      O(n)       | Recursive Stack + O(n) |
+| BottomUp / Tabulation |      O(n)       |          O(1)          |
+|       Standard        |      O(n)       |          O(1)          |
