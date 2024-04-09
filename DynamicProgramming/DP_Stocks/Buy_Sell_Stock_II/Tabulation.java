@@ -1,6 +1,4 @@
 package DynamicProgramming.DP_Stocks.Buy_Sell_Stock_II;
-
-import java.util.*;
 // We just Copied recurrence relation from Memoization, in Memoization we traversed from 0, hence we are travsering from n here.
 public class Tabulation {
     public int maxProfit(int[] prices) {
@@ -11,9 +9,6 @@ public class Tabulation {
         // Create a 2D array to store the maximum profit at each day and holding status
         // 0 -> not holding, 1 -> holding
         int[][] dp = new int[n + 1][2];
-        for (int[] row : dp) {
-            Arrays.fill(row, -1);
-        }
 
         // If we have no stocks to buy or sell, profit is 0
         dp[n][0] = dp[n][1] = 0;
