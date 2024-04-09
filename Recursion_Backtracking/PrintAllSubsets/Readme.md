@@ -1,6 +1,6 @@
 |             Approach             | Time Complexity | Space Complexity |                                       Comments                                       |
 | :------------------------------: | :-------------: | :--------------: | :----------------------------------------------------------------------------------: |
-|            Iterative             |     O(2^N)      |       O(N)       |                        |
+|            Iterative             |     O(2^N)      |       O(N)       |                                                                                      |
 |     Recursive (Binary Split)     |     O(2^N)      |       O(N)       |                                                                                      |
 | Recursive BackTracking (N Split) |     O(2^N)      |       O(N)       | It is Optimal as we are getting result faster in most of cases unlike pure recursive |
 
