@@ -7,4 +7,7 @@ https://leetcode.com/problems/longest-increasing-subsequence/description/
 | Top Down / Memoization |     O(n\*n)     | Recursive Stack + O(n\*n) |
 | BottomUp / Tabulation  |     O(n\*n)     |          O(n\*n)          |
 |   Space Optimization   |     O(n\*n)     |           O(n)            |
-| Top Down / Memoization |     O(n\*n)     |           O(n)            |
+|   Standard Approach    |     O(n\*n)     |           O(n)            |
+| Binary Search Approach |   O(n\*logn)    |           O(n)            |
+
+NOTE : Binary Search approach can only give length not subsequence, Standard Approach is preferred for printing Subsequence.
