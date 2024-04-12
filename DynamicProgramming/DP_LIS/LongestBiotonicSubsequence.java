@@ -8,14 +8,14 @@ public class LongestBiotonicSubsequence {
         int[] dpLds = new int[n]; // For Longest Decreasing Subsequence
         Arrays.fill(dpLis, 1);
         Arrays.fill(dpLds, 1);
-
+        // Longest Increasing Subsequence
         for (int currInd = 1; currInd < n; currInd++) {
             for (int prevInd = 0; prevInd < currInd; prevInd++) {
                 if ((arr[currInd] > arr[prevInd]) && (1 + dpLis[prevInd] > dpLis[currInd]))
                     dpLis[currInd] = Math.max(dpLis[currInd], 1 + dpLis[prevInd]);
             }
         }
-
+        // Longest Decreasing Subsequence
         for (int currInd = n - 2; currInd >= 0; currInd--) {
             for (int nextInd = n - 1; nextInd > currInd; nextInd--) {
                 if (arr[currInd] > arr[nextInd] && dpLds[currInd] < 1 + dpLds[nextInd])
