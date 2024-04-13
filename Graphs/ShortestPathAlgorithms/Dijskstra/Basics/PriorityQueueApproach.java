@@ -30,6 +30,11 @@ public class PriorityQueueApproach {
             Pair curr = pq.poll();
             int curr_distance = curr.distance;
             int curr_node = curr.node;
+            // If curr Distance is Greater thanc shortest at that node, then there is no point of adding wt to adjNode and check as these will not give shortest.
+            // This condition slightly imporves time but not needed in most times. 
+            // In this particular question , if this is not added one test case fails : https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/
+            if ((dist[curr_node] != Integer.MAX_VALUE) && (curr_distance > dist[curr_node]))
+                continue;
             for (int i = 0; i < adj.get(curr_node).size(); i++) {
                 int adjNode = adj.get(curr_node).get(i).get(0);
                 int edgeWeight = adj.get(curr_node).get(i).get(1);
