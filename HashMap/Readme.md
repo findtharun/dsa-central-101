@@ -21,6 +21,9 @@ This is How Balanced Binary Tree Implemented (https://opendsa-server.cs.vt.edu/O
 
 Other Collision Handling Techniques are : (Open Addressing -> Linear & Quadratic Probing, Double Hashing). However, Chaining gives more predictable and efficient outcomes.
 
+HashMap Implementation & Collision Handling Techniques : https://www.youtube.com/watch?v=xdr2Y1P2H1U&list=PL3edoBgC7ScWhy0mlNvLPssa_sDGnyUcb
+
+
 <h2> Tips & Tricks </h2>
 
 * Different Ways to Iterate over HashMap in Java
