@@ -5,6 +5,9 @@ Different Approaches for Finding Shortest Path from Source to All nodes using Di
 1. Using Priority Queue (Recommended)
     * Time Complexity : O( E log(V) )
     * Space Complexity : O( |E| + |V| )
+    * It is recommended to use Visited array or add the below (This would eliminate the redundant values , in HashSet approach we write this logic to remove but in Priority Queue approach it is good to add this)
+        *  if ((dist[curr_node] != Integer.MAX_VALUE) (curr_distance > dist[curr_node]))
+                continue;
 2. Using Sets
     * Time Complexity is Almost equivalent to O( E log(V) )
     * Space Complexity  : O( |E| + |V| )
