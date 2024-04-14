@@ -10,6 +10,8 @@
 
 Build Heap Takes O(n\* log n) as for each insert we have o(log n)
 
+NOTE : Index of First Leaf in Heap / Complete Binary tree is (n/2 - 1).
+
 ### Check if Given Array Represents Max Heap
 
 ```
