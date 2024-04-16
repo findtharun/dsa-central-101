@@ -12,7 +12,7 @@ public class Solution {
                                  // combined.
 
     // Do a Dry run to Understand the flow, It will always make sure that
-    // Every num in small is <= every num in large.
+    // Every num in small heap is <= every num in large heap.
     public void addNum(int num) {
         if (even) {
             large.offer(num);
