@@ -1,5 +1,8 @@
 # DSA Central 101
 This Repository Contains Various Approaches to Solving a Problem,  Serves as a Guide to Preparing for Interviews
+
+##### Number of Elementary Operations that can be done in 1 Sec is 10^8. If your algorithm is achieving it in <=10^8 (Including Constraints), then we can use bruteforce approach to solve the problem.
+
 ## Time Complexities of Common Operations for Java Collections
 
 | Operation                        | ArrayList           | LinkedList          | HashSet   | HashMap   | TreeMap   |
