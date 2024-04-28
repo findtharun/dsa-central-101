@@ -1,7 +1,11 @@
 # DSA Central 101
 This Repository Contains Various Approaches to Solving a Problem,  Serves as a Guide to Preparing for Interviews
 
-##### Number of Elementary Operations that can be done in 1 Sec is 10^8. If your algorithm is achieving it in <=10^8 (Including Constraints), then we can use bruteforce approach to solve the problem.
+### How to Avoid TLE 
+*  Number of Elementary Operations that can be done in 1 Sec is 10^8. If your algorithm is achieving it in <=10^8 (Including Constraints), then we can use bruteforce approach to solve the problem. 
+
+* Detailed Complexity for each constraint can be found here : https://www.geeksforgeeks.org/overcome-time-limit-exceedtle/
+* https://discuss.codechef.com/t/no-of-operations-computations-in-1-second-java/13889
 
 ## Time Complexities of Common Operations for Java Collections
 
