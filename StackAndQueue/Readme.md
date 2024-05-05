@@ -5,6 +5,8 @@
     * In Prefix and Postfix, based on Precedence and Associativity an expression is generated, can be evaluated in one pass efficiently.
     * Postfix is used by compilers to Perform Arithmetic Calculations.
 
+NOTE : We can Access Elements in Stack using Get function. (Stack.get(0) gives first inserted element )
+
 <h2> Queues </h2>
 
 * Queue is an Interface; cannot be instantiated. 
