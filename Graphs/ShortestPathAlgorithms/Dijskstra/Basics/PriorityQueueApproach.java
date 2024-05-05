@@ -23,7 +23,7 @@ public class PriorityQueueApproach {
         int[] dist = new int[V];
         Arrays.fill(dist, (int) 1e9);
 
-        pq.add(new Pair(0, S)); // Distance from Source to Itself is 0;
+        pq.add(new Pair(S, 0)); // Distance from Source to Itself is 0;
         dist[S] = 0;
 
         while (pq.size() > 0) {

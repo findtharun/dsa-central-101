@@ -9,8 +9,8 @@ public class SlowFastPointers {
             slow = slow.next;
             fast = fast.next.next;
             if(slow==fast) {
-                while(slow!=temp){
-                    slow = slow.next;
+                while(fast!=temp){
+                    fast = slow.next;
                     temp = temp.next;
                 }
                  return temp;
