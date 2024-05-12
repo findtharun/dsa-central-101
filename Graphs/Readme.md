@@ -72,3 +72,12 @@ A Graph is a non-linear data structure consisting of vertices and edges. The ver
 - Image Segmentation - Network Flow (Computer Vision)
 - Web Crawlers
 - Sudoku Can be solved using Graphs.
+
+### Best Problems Listed
+
+* https://leetcode.com/discuss/study-guide/2360573/Become-Master-In-Graph
+
+## Deep Dive of Graph Algorithms
+
+* https://www.whitman.edu/mathematics/cgt_online/book/
+* Network Flow : https://www.youtube.com/watch?v=LdOnanfc5TM&list=PLDV1Zeh2NRsDj3NzHbbFIC58etjZhiGcG
