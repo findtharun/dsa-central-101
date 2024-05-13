@@ -6,7 +6,7 @@ This Repository Contains Various Approaches to Solving a Problem,  Serves as a G
 
 Use the information in a question to your advantage! It will often implicitly tell you how efficient your algorithm should be to get full points. Consider the fact that a computer can run 108 iterations per second. You’re usually going to be given an array or string; call its size n. Note that you cannot be asked to come up with a solution better than O(n) in this case (even if one exists); the reason is that it takes linear time to input the test array itself! With that in mind,
 
-- If (n >= 104), aim for a O(n) or a O(n log n) solution.
+- If (n >= 10^4), aim for a O(n) or a O(n log n) solution.
 - If (n <= 10^3), aim for a O(n2) solution
 - I(n <= 10^2), aim for a O(n3) solution
 - If (n < 20), a O(2n) solution should be fine.
