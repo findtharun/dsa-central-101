@@ -2,6 +2,8 @@
 
 - https://leetcode.com/problems/maximum-subarray
 
+Explanation for Kadane's Algo : https://www.youtube.com/watch?v=86CQq3pKSUw
+
 |  Approach   | Time Complexity | Space Complexity |
 | :---------: | :-------------: | :--------------: |
 | Brute Force |     O(N\*N)     |       O(1)       |
