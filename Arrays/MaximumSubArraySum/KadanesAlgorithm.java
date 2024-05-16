@@ -1,26 +1,23 @@
 package Arrays.MaximumSubArraySum;
 
 public class KadanesAlgorithm {
-    public int maxSubArray(int[] nums) {
-        int n = nums.length;
-        int maxi = Integer.MIN_VALUE;
-        int sum = 0;
-        int start = 0;
-        int maxStart = -1;
-        int maxEnd = -1; // These Values are used to Store the Indices
-        for (int i = 0; i < n; i++) {
-            if (sum == 0)
-                start = i;
-            sum = sum + nums[i];
-            if (sum > maxi) {
-                maxi = sum;
-                maxStart = start;
-                maxEnd = i;
-            }
-            if (sum < 0) {
-                sum = 0;
-            }
+    public static int maxSubArraySum(int[] nums) {
+        int maxSoFar = nums[0];
+        int maxEndingHere = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            // maxEndingHere is the maximum sum of subarray ending at index i
+            maxEndingHere = Math.max(nums[i], maxEndingHere + nums[i]);
+            // maxSoFar keeps track of the maximum sum found so far
+            maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
-        return maxi;
+
+        return maxSoFar;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+        int maxSum = maxSubArraySum(nums);
+        System.out.println("Maximum sum of a contiguous subarray is " + maxSum);
     }
 }
