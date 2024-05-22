@@ -8,7 +8,7 @@ Eg : S = ABC
 Sub Strings : AB, BC
 SubSequences : AB, AC, BC
 ```
-
+- Substring Problems Solution Patterns : https://leetcode.com/problems/minimum-window-substring/solutions/26808/here-is-a-10-line-template-that-can-solve-most-substring-problems/
 <h2> Tips & Tricks </h2>
 
 - Convert Int to String ; int a = 222; String st = a + "";
