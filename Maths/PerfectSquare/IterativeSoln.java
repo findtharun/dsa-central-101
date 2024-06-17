@@ -7,6 +7,7 @@ class IterativeSoln {
         }
         int sum = 0;
         int i = 1;
+        //  This is based on the mathematical property that the sum of the first n odd numbers is equal to n^2
         while (sum < b) {
             sum += i;
             i += 2;
