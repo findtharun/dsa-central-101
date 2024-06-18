@@ -1,6 +1,8 @@
 # DSA Central 101
 This Repository Contains Various Approaches to Solving a Problem,  Serves as a Guide to Preparing for Interviews
 
+- Best DSA Cheatsheet : https://d3no4ktch0fdq4.cloudfront.net/public/course/files/data_structure_cheatsheet_-_combined.pdf
+
 ### How to Avoid TLE 
 *  Number of Elementary Operations that can be done in 1 Sec is 10^8. If your algorithm is achieving it in <=10^8 (Including Constraints), then we can use bruteforce approach to solve the problem. 
 
@@ -76,6 +78,7 @@ Note:
 * https://cses.fi/problemset/  (https://github.com/Jonathan-Uy/CSES-Solutions)
 * https://www.interviewcake.com/
 * Leetcode Problems Company Wise : https://leetracer.com/screener
+* Pattern Wise Problems with Company Tags : https://seanprashad.com/leetcode-patterns/
 
 ### Best Videos/Blogs for Learning Java
 
