@@ -78,7 +78,8 @@ Note:
 * https://cses.fi/problemset/  (https://github.com/Jonathan-Uy/CSES-Solutions)
 * https://www.interviewcake.com/
 * Leetcode Problems Company Wise : https://leetracer.com/screener
-* Pattern Wise Problems with Company Tags : https://seanprashad.com/leetcode-patterns/
+* Pattern Wise Problems with Company Tags : https://seanprashad.com/leetcode-patterns
+* DSA Problem Patterns : https://dvpr.gitbook.io/coding-interview-patterns
 
 ### Best Videos/Blogs for Learning Java
 
