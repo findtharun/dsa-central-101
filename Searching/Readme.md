@@ -13,3 +13,7 @@ An alternate method is to create a <b> binary search tree </b> in memory. This a
 * Standard Binary Search is inefficient with dynamic data as an array is used to store the collection, insertions and deletions are quite inefficient, since every array entry should contain a valid element. Therefore, inserting involves extending the array (physically or logically) and pushing on average half of the elements ahead one slot. Deletion requires shrinking the array and moving half of the elements one index position lower. Neither of these is acceptable.
 
 As long as the collection fits in memory, a good choice is to switch to a hash-based search approach using collision chaining.
+
+### Best Problems / Patterns
+
+- https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems

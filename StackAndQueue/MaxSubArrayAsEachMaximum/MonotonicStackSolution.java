@@ -18,7 +18,7 @@ public class MonotonicStackSolution {
             st.push(i);
         }
         st = new Stack<>();
-        // Finding Count pf Elements Till We find Next Great Element to Right
+        // Finding Count of Elements Till We find Next Great Element to Right
         for (int i = n - 1; i >= 0; i--) {
             while (!st.isEmpty() && arr[i] > arr[st.peek()]) {
                 st.pop();
