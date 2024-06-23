@@ -2,6 +2,14 @@ Write a function to crush candy in one dimensional board. In candy crushing game
 
 https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D
 
+
+Input: "aaabbbacd"
+Output: "acd"
+
+Followup : What if you need to find the shortest string after removal?
+Input: "aaabbbacd"
+Output: "cd"
+
 #### Similar Problem
 
 - Recursively Remove Adjacent : It recursively deletes all (does not have number of occurences as limit )
