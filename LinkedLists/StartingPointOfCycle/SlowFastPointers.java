@@ -5,17 +5,17 @@ public class SlowFastPointers {
         ListNode slow = head;
         ListNode fast = head;
         ListNode temp = head;
-        while(fast!=null && fast.next!=null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-            if(slow==fast) {
-                while(fast!=temp){
-                    fast = slow.next;
+            if (slow == fast) {
+                while (slow != temp) {
+                    slow = slow.next;
                     temp = temp.next;
                 }
-                 return temp;
+                return slow;
             }
         }
         return null;
-        }
+    }
 }
