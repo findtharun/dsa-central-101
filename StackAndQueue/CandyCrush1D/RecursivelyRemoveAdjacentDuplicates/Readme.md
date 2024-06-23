@@ -5,3 +5,6 @@ Note : Both Approaches use Recursion
 | :-------: | :-------------: | :--------------: | :--------------------------------------: |
 | Recursive |     O(N\*N)     |       O(N)       | It is close to O(N\*N) but never O(N\*N) |
 | Regex     |     O(N\*N)     |       O(N)       | It is close to O(N\*N) but never O(N\*N) |
+
+
+<b> There can not be any solution without recursion  </b>. If we have condition to remove a particular count of adjacent characters then we can eleminate recursion (ex : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) 
