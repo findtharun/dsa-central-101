@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-
+// https://leetcode.com/problems/validate-binary-tree-nodes/description/
 public class ValidateBinaryTree {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         int[] parents = new int[n];
