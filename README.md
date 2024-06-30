@@ -71,6 +71,7 @@ Note:
 
 ### Best Problems Listed
 
+* https://leetcode.com/discuss/interview-question/5366542/all-leetcode-articles-on-coding-patterns-summarized-in-one-page
 * https://www.designgurus.io/blind75
 * https://www.techinterviewhandbook.org/grind75
 * https://neetcode.io/practice
