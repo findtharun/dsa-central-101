@@ -1,5 +1,7 @@
 <h2> Tips and Tricks </h2>
 
+* Whenever you're trying to solve an array problem in place, always consider the possibility of iterating backwards instead of forwards through the array. It can completely change the problem, and make it a lot easier.
+
 * Most of the Array Problems Can be solved using
     * Sorting
     * HashMap

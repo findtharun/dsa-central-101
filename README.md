@@ -6,7 +6,7 @@ This Repository Contains Various Approaches to Solving a Problem,  Serves as a G
 ### How to Avoid TLE 
 *  Number of Elementary Operations that can be done in 1 Sec is 10^8. If your algorithm is achieving it in <=10^8 (Including Constraints), then we can use bruteforce approach to solve the problem. 
 
-Use the information in a question to your advantage! It will often implicitly tell you how efficient your algorithm should be to get full points. Consider the fact that a computer can run 108 iterations per second. You’re usually going to be given an array or string; call its size n. Note that you cannot be asked to come up with a solution better than O(n) in this case (even if one exists); the reason is that it takes linear time to input the test array itself! With that in mind,
+Use the information in a question to your advantage! It will often implicitly tell you how efficient your algorithm should be to get full points. Consider the fact that a computer can run 10^8 iterations per second. You’re usually going to be given an array or string; call its size n. Note that you cannot be asked to come up with a solution better than O(n) in this case (even if one exists); the reason is that it takes linear time to input the test array itself! With that in mind,
 
 - If (n >= 10^4), aim for a O(n) or a O(n log n) solution.
 - If (n <= 10^3), aim for a O(n2) solution
