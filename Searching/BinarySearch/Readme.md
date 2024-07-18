@@ -33,6 +33,9 @@ while(low<=high){
     }
 }
 return lower_bound;
+
+Test Case 1 : [1,2,3,4] , x = -1, Lower Bound = 0
+Test Case 2 : [1,2,3,4] , x = 17, Lower Bound = 5
 ```
 
 ## Upper Bound
