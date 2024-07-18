@@ -1,9 +1,9 @@
-package Heaps;
+package TaskScheduler.TaskSchedulerI;
 
 import java.util.*;
 
 //https://leetcode.com/problems/task-scheduler/ (Other Solutions are efficient as well , can be found in leetcode editorial)
-public class TaskScheduler {
+public class HeapApproach {
     public int leastInterval(char[] tasks, int n) {
         // Build frequency map
         int[] freq = new int[26];
