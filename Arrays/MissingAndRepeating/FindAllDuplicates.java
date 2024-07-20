@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.MissingAndRepeating;
 
 import java.util.ArrayList;
 import java.util.List;
