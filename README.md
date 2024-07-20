@@ -81,6 +81,7 @@ Note:
 * Leetcode Problems Company Wise : https://leetracer.com/screener
 * Pattern Wise Problems with Company Tags : https://seanprashad.com/leetcode-patterns
 * DSA Problem Patterns : https://dvpr.gitbook.io/coding-interview-patterns
+* Puzzle Problems: https://www.geeksforgeeks.org/top-100-puzzles-asked-in-interviews
 
 ### Best Videos/Blogs for Learning Java
 
