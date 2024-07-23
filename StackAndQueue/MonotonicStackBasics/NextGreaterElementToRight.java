@@ -39,7 +39,7 @@ public class NextGreaterElementToRight {
     public static void main(String[] args) {
         int[] nums = { 4, 5, 2, 10, 8 };
         // int[] result = nextGreaterElement(nums);
-        int[] result = nextGreaterElementBruteForce(nums);
+        int[] result = nextGreaterElement(nums);
         // Print the result
         System.out.println(Arrays.toString(result));
     }
