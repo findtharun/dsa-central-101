@@ -54,6 +54,11 @@ for( int i=0; i<len; i++ ){
     }
 }
 ```
+#### Converting ArrayList to Array
+
+- 1D : listName.toArray(new int[listName.size()]);
+- List<int[]> to 2D Array : listName.toArray(new int[listName.size()][]);
+- We can not convert List<List>> directly to 2D array, Instead convert every List to 1D array and Assign Manually else we need to use Streams to Perform in 1 Line.
 
 <h2> Interesting Problems </h2>
 
