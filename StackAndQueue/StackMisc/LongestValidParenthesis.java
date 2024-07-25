@@ -1,7 +1,9 @@
 package StackAndQueue.StackMisc;
 
 import java.util.Stack;
+// https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
 
+// Practice : https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1
 public class LongestValidParenthesis {
     public static int maxLength(String S) {
         int n = S.length();
