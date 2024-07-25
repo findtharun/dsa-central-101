@@ -13,6 +13,7 @@ class Pair {
     }
 }
 
+// https://leetcode.com/problems/snakes-and-ladders/
 public class BoustrophedonStyle {
     public int[] getPos(int square, int n) {
         int row = (square - 1) / n;
