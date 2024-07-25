@@ -2,7 +2,7 @@ package StackAndQueue.SlidingWindowMaximum;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-
+// Monotonic Deque
 public class UsingDequeue {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
@@ -15,7 +15,7 @@ public class UsingDequeue {
                 q.poll();
             }
             // We insert only Elements in Decreasing Order, Remove Smaller Elements
-            while (!q.isEmpty() && nums[q.peekLast()] < nums[i]) {
+            while (!q.isEmpty() && nums[i] > nums[q.peekLast()]) {
                 q.pollLast();
             }
             q.offer(i);
