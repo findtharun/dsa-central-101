@@ -27,10 +27,10 @@ public class MaxDistinctCountInSubtrees {
         root.left.right = new TreeNode(4);
 
         // Get the distinct elements count for each subtree
-        Map<TreeNode, Integer> distinctElementsMap = countDistinctElementsInSubtrees(root);
+        Map<TreeNode, Integer> map = countDistinctElementsInSubtrees(root);
 
         // Find and print the highest distinct count
-        int highestDistinctCount = getHighestDistinctCount(distinctElementsMap);
+        int highestDistinctCount = getHighestDistinctCount(map);
         System.out.println("Highest distinct count: " + highestDistinctCount);
     }
 

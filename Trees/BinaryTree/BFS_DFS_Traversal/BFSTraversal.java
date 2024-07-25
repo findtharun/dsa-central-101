@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import Trees.BinaryTree.Node;
 
-// https://leetcode.com/problems/sum-of-nodes-with-even-dataued-grandparent/description/
+// https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/
 public class BFSTraversal {
     int finddata(Node node) {
         return node == null ? 0 : node.data;

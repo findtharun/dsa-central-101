@@ -8,7 +8,6 @@ public class LevelOrderTraversal {
         List<List<Integer>> Tree = new ArrayList<>();
         if (root == null)
             return Tree;
-        List<Integer> sub = new ArrayList<>();
         Queue<Node> q = new LinkedList<>();
         q.offer(root);
         while (q.size() > 0) {
