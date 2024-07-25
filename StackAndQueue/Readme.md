@@ -1,6 +1,6 @@
 <h2> Stacks </h2>
 
-* Stacks are very useful in converting ionfix to Postfix/ Prefix.
+* Stacks are very useful in converting infix to Postfix/ Prefix.
     * Infix Expresssions are human readable but not efficient for machine reading. (This require Knowing Precedence and Associativity of Operators for Evaluating the Expressions at each level).
     * In Prefix and Postfix, based on Precedence and Associativity an expression is generated, can be evaluated in one pass efficiently.
     * Postfix is used by compilers to Perform Arithmetic Calculations.
