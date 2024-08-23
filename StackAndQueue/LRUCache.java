@@ -1,73 +1,76 @@
 package StackAndQueue;
 
-import java.util.HashMap;
+import java.util.*;
+
+class ListNode {
+    int key;
+    int val;
+    ListNode next;
+    ListNode prev;
+
+    public ListNode(int key, int val) {
+        this.key = key;
+        this.val = val;
+    }
+}
 
 public class LRUCache {
-    class Node {
-        int key;
-        int val;
-        Node prev;
-        Node next;
-
-        Node(int key, int val) {
-            this.key = key;
-            this.val = val;
-        }
-    }
-
-    Node head = new Node(-1, -1);
-    Node tail = new Node(-1, -1);
-    int cap;
-    HashMap<Integer, Node> m = new HashMap<>();
+    int capacity;
+    Map<Integer, ListNode> map;
+    ListNode head;
+    ListNode tail;
 
     public LRUCache(int capacity) {
-        cap = capacity;
+        this.capacity = capacity;
+        map = new HashMap<>();
+        head = new ListNode(-1, -1);
+        tail = new ListNode(-1, -1);
         head.next = tail;
         tail.prev = head;
     }
 
-    private void addNode(Node newnode) {
-        Node temp = head.next;
-
-        newnode.next = temp;
-        newnode.prev = head;
-
-        head.next = newnode;
-        temp.prev = newnode;
-    }
-
-    private void deleteNode(Node delnode) {
-        Node prevv = delnode.prev;
-        Node nextt = delnode.next;
-
-        prevv.next = nextt;
-        nextt.prev = prevv;
-    }
-
     public int get(int key) {
-        if (m.containsKey(key)) {
-            Node resNode = m.get(key); // We will get Node associated to Key
-            int ans = resNode.val;
-            m.remove(key);
-            deleteNode(resNode); // Delete Old Connction
-            addNode(resNode); // Add as New connection at Start (Since it is LRU)
-            m.put(key, head.next);
-            return ans;
+        if (!map.containsKey(key)) {
+            return -1;
         }
-        return -1;
+
+        ListNode node = map.get(key);
+        remove(node);
+        add(node);
+        return node.val;
     }
 
     public void put(int key, int value) {
-        if (m.containsKey(key)) {
-            Node curr = m.get(key);
-            m.remove(key);
-            deleteNode(curr);
+        if (map.containsKey(key)) {
+            ListNode oldNode = map.get(key);
+            remove(oldNode);
         }
-        if (m.size() == cap) { // Reached Capacity
-            m.remove(tail.prev.key); // Removing the Less USed Node
-            deleteNode(tail.prev); // Deleting Node
+
+        ListNode node = new ListNode(key, value);
+        map.put(key, node);
+        add(node);
+
+        if (map.size() > capacity) {
+            // Least Recently Used will be at Start of LinkedList
+            ListNode nodeToDelete = head.next;
+            remove(nodeToDelete);
+            map.remove(nodeToDelete.key);
         }
-        addNode(new Node(key, value));
-        m.put(key, head.next);
+    }
+
+    public void add(ListNode node) {
+        // We add Node at end of linkedList
+        ListNode previousEnd = tail.prev;
+        previousEnd.next = node;
+        node.prev = previousEnd;
+        node.next = tail;
+        tail.prev = node;
+    }
+
+    public void remove(ListNode node) {
+        ListNode nodePrev = node.prev;
+        ListNode nodeNext = node.next;
+        nodePrev.next = nodeNext;
+        nodeNext.prev = nodePrev;
     }
 }
