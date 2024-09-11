@@ -3,6 +3,13 @@
 * Time Complexity : O(logN)
 * mid = low + (high-low)/2
 
+Library function for Binary Search
+
+```
+Arrays.binarySearch()
+If the element is found: The index of the element in the array.
+If the element is not found: A negative value that represents the insertion point of the element in the array.  Insertion Point = -(Insertion Point) - 1
+
 ```
 while(left <= right) {
     int mid =  left + (right-left)/2 ;

@@ -13,6 +13,8 @@ Use the information in a question to your advantage! It will often implicitly te
 - I(n <= 10^2), aim for a O(n3) solution
 - If (n < 20), a O(2n) solution should be fine.
 
+![alt text](TimeComplexityChart.png)
+
 * Detailed Complexity for each constraint can be found here : https://www.geeksforgeeks.org/overcome-time-limit-exceedtle/
 * https://discuss.codechef.com/t/no-of-operations-computations-in-1-second-java/13889
 
